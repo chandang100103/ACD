@@ -1,0 +1,2379 @@
+[
+  {
+    "id": 1,
+    "chapter": "Incident Management",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which practice is responsible for restoring normal service operation as quickly as possible after an interruption?",
+    "options": {
+      "A": "Problem Management",
+      "B": "Incident Management",
+      "C": "Change Enablement",
+      "D": "Service Desk"
+    },
+    "correct": ["B"],
+    "explanation": "Incident Management restores normal service as quickly as possible while minimizing business impact."
+  },
+  {
+    "id": 2,
+    "chapter": "Service Value System",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which component of the Service Value System ensures that the organization's direction and policies are monitored and evaluated?",
+    "options": {
+      "A": "Governance",
+      "B": "Guiding Principles",
+      "C": "Continual Improvement",
+      "D": "Practices"
+    },
+    "correct": ["A"],
+    "explanation": "Governance provides oversight and ensures organizational objectives are achieved."
+  },
+  {
+    "id": 3,
+    "chapter": "Guiding Principles",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 2,
+    "question": "Which TWO statements are consistent with the ITIL guiding principles?",
+    "options": {
+      "A": "Always redesign every service from scratch.",
+      "B": "Focus on value for stakeholders.",
+      "C": "Start where you are before making changes.",
+      "D": "Avoid feedback from customers.",
+      "E": "Ignore existing processes."
+    },
+    "correct": ["B", "C"],
+    "explanation": "Focus on value and Start where you are are two ITIL guiding principles."
+  },
+  {
+    "id": 4,
+    "chapter": "Service Desk",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the primary purpose of the Service Desk practice?",
+    "options": {
+      "A": "Approve all changes.",
+      "B": "Own all problems.",
+      "C": "Capture demand and resolve user issues whenever possible.",
+      "D": "Manage suppliers."
+    },
+    "correct": ["C"],
+    "explanation": "The Service Desk is the primary point of contact between users and the service provider."
+  },
+  {
+    "id": 5,
+    "chapter": "Continual Improvement",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A service provider regularly reviews customer feedback and performance metrics before deciding which improvements should be implemented next. Which ITIL concept is being applied?",
+    "options": {
+      "A": "Continual Improvement",
+      "B": "Release Management",
+      "C": "Service Request Management",
+      "D": "Deployment Management"
+    },
+    "correct": ["A"],
+    "explanation": "Continual Improvement uses performance information and feedback to identify and prioritize improvements."
+  },
+  {
+    "id": 6,
+    "chapter": "Incident Management",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "How does categorization of incidents assist the 'incident management' practice?",
+    "options": {
+      "A": "It helps direct the incident to the correct support area",
+      "B": "It determines the priority assigned to the incident",
+      "C": "It ensures that incidents are resolved in timescales agreed with the customer",
+      "D": "It determines how the service provider is perceived"
+    },
+    "correct": ["A"],
+    "explanation": "Categorization helps route incidents to the appropriate support team for faster resolution."
+  },
+  {
+    "id": 7,
+    "chapter": "Service Value",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A service is a means of enabling value co-creation by facilitating what customers want to achieve?",
+    "options": {
+      "A": "The warranty",
+      "B": "Outcomes",
+      "C": "The utility",
+      "D": "Outputs"
+    },
+    "correct": ["B"],
+    "explanation": "Services facilitate outcomes that customers want to achieve without managing specific costs and risks."
+  },
+  {
+    "id": 8,
+    "chapter": "Continual Improvement",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which is a recommendation of the continual improvement practice?",
+    "options": {
+      "A": "There should at least be a small team dedicated to leading continual improvement efforts",
+      "B": "All improvements should be managed as multi-phase projects",
+      "C": "Continual improvement should be isolated from other practices",
+      "D": "External suppliers should be excluded from improvement initiatives"
+    },
+    "correct": ["A"],
+    "explanation": "Organizations should maintain ownership and leadership for continual improvement activities."
+  },
+  {
+    "id": 9,
+    "chapter": "Incident Management",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which is a potential benefit of using an IT service management tool to support incident management?",
+    "options": {
+      "A": "It may ensure that the cause of incidents is identified within agreed times",
+      "B": "It may provide automated matching of incidents to problems or known errors",
+      "C": "It may ensure that supplier contracts are aligned with the needs of the service provider",
+      "D": "It may provide automated resolution and closure of complex incidents"
+    },
+    "correct": ["B"],
+    "explanation": "ITSM tools can help identify relationships between incidents, problems, and known errors."
+  },
+  {
+    "id": 10,
+    "chapter": "Service Request Management",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which role submits service requests?",
+    "options": {
+      "A": "The user, or their authorized representative",
+      "B": "The customer, or their authorized representative",
+      "C": "The sponsor, or their authorized representative",
+      "D": "The supplier, or their authorized representative"
+    },
+    "correct": ["A"],
+    "explanation": "Users or their authorized representatives typically submit service requests."
+  },
+  {
+    "id": 11,
+    "chapter": "Service Desk",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which practice provides a single point of contact for users?",
+    "options": {
+      "A": "Incident management",
+      "B": "Change enablement",
+      "C": "Service desk",
+      "D": "Service request management"
+    },
+    "correct": ["C"],
+    "explanation": "The Service Desk acts as the single point of contact between users and service providers."
+  },
+  {
+    "id": 12,
+    "chapter": "Guiding Principles",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which guiding principle recommends that the four dimensions of service management are considered?",
+    "options": {
+      "A": "Think and work holistically",
+      "B": "Progress iteratively with feedback",
+      "C": "Focus on value",
+      "D": "Keep it simple and practical"
+    },
+    "correct": ["A"],
+    "explanation": "Thinking and working holistically ensures all dimensions are considered together."
+  },
+  {
+    "id": 13,
+    "chapter": "Service Request Management",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which would be supported by the service request management practice?",
+    "options": {
+      "A": "A request to authorize a change that could have an effect on a service",
+      "B": "A request from a user for something which is a normal part of service delivery",
+      "C": "A request to restore service after a service interruption",
+      "D": "A request to investigate the cause of multiple related incidents"
+    },
+    "correct": ["B"],
+    "explanation": "Service request management handles standard and pre-approved user requests."
+  },
+  {
+    "id": 14,
+    "chapter": "Continual Improvement",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which practice is the responsibility of everyone in the organization?",
+    "options": {
+      "A": "Service level management",
+      "B": "Change enablement",
+      "C": "Problem management",
+      "D": "Continual improvement"
+    },
+    "correct": ["D"],
+    "explanation": "Continual improvement is a responsibility shared across the organization."
+  },
+  {
+    "id": 15,
+    "chapter": "Information Security Management",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "The purpose of the information security management practice is to what the organization's information?",
+    "options": {
+      "A": "Store",
+      "B": "Provide",
+      "C": "Audit",
+      "D": "Protect"
+    },
+    "correct": ["D"],
+    "explanation": "The practice exists to protect the confidentiality, integrity, and availability of information."
+  },
+  {
+  "id": 16,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which guiding principle recommends collecting data before deciding what can be re-used?",
+  "options": {
+    "A": "Focus on value",
+    "B": "Start where you are",
+    "C": "Keep it simple and practical",
+    "D": "Progress iteratively with feedback"
+  },
+  "correct": ["B"],
+  "explanation": "Start where you are emphasizes assessing the current state before making changes."
+  },
+  {
+  "id": 17,
+  "chapter": "Incident Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which is NOT usually included as part of incident management?",
+  "options": {
+    "A": "Scripts for collecting initial information about incidents",
+    "B": "Formalized procedures for logging incidents",
+    "C": "Detailed procedures for the diagnosis of incidents",
+    "D": "The use of specialized knowledge for complicated incidents"
+  },
+  "correct": ["C"],
+  "explanation": "Incident management focuses on restoring service quickly rather than detailed root cause analysis."
+  },
+  {
+  "id": 18,
+  "chapter": "Guiding Principles",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which describes the nature of the guiding principles?",
+  "options": {
+    "A": "Guiding principles can guide an organization in all circumstances",
+    "B": "Each guiding principle mandates specific actions and decisions",
+    "C": "An organization will select and adopt only one of the seven guiding principles",
+    "D": "Guiding principles describe the processes that all organizations must adopt"
+  },
+  "correct": ["A"],
+  "explanation": "Guiding principles are universal recommendations that can be applied in many situations."
+  },
+  {
+  "id": 19,
+  "chapter": "Change Enablement",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement about a change authority is CORRECT?",
+  "options": {
+    "A": "A single change authority should be assigned to authorize all types of change and change models",
+    "B": "A change authority should be assigned for each type of change and change model",
+    "C": "Normal changes are pre-authorized and do not need a change authority",
+    "D": "Emergency changes can be implemented without authorization from a change authority"
+  },
+  "correct": ["B"],
+  "explanation": "Different change types may require different change authorities."
+  },
+  {
+  "id": 20,
+  "chapter": "Release Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which practice has the purpose of making new and changed services and features available for use?",
+  "options": {
+    "A": "Change enablement",
+    "B": "Service request management",
+    "C": "Release management",
+    "D": "Deployment management"
+  },
+  "correct": ["C"],
+  "explanation": "Release management ensures new and changed services are made available for use."
+  },
+  {
+  "id": 21,
+  "chapter": "Service Value Chain",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which value chain activity ensures people understand the organization's vision?",
+  "options": {
+    "A": "Improve",
+    "B": "Plan",
+    "C": "Deliver and support",
+    "D": "Obtain/build"
+  },
+  "correct": ["B"],
+  "explanation": "The Plan activity ensures understanding of vision, current status, and improvement direction."
+  },
+  {
+  "id": 22,
+  "chapter": "Service Value Chain",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Which statement about the value chain activities is CORRECT?",
+  "options": {
+    "A": "Every practice belongs to a specific value chain activity",
+    "B": "A specific combination of value chain activities and practices forms a service relationship",
+    "C": "Service value chain activities form a single workflow that enables value creation",
+    "D": "Each value chain activity contributes to the value chain by transforming specific inputs into outputs"
+  },
+  "correct": ["D"],
+  "explanation": "Each value chain activity receives inputs and produces outputs that contribute to value creation."
+  },
+  {
+  "id": 23,
+  "chapter": "Supplier Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the purpose of the supplier management practice?",
+  "options": {
+    "A": "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services",
+    "B": "To align practices and services with changing business needs through continual improvement",
+    "C": "To manage supplier performance through sales and marketing activities",
+    "D": "To ensure accurate information about supplier service configurations"
+  },
+  "correct": ["A"],
+  "explanation": "Supplier management ensures suppliers support the organization's service delivery objectives."
+  },
+  {
+  "id": 24,
+  "chapter": "Service Consumer",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What are the two types of cost that a service consumer should evaluate?",
+  "options": {
+    "A": "The price of the service and the cost of creating the service",
+    "B": "The costs removed by the service and the costs imposed by the service",
+    "C": "Provisioning cost and improvement cost",
+    "D": "Software cost and hardware cost"
+  },
+  "correct": ["B"],
+  "explanation": "Consumers evaluate both costs removed and costs imposed by the service."
+  },
+  {
+  "id": 25,
+  "chapter": "Service Desk",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which is a purpose of the service desk practice?",
+  "options": {
+    "A": "Reduce incidents by identifying causes",
+    "B": "Maximize successful IT changes",
+    "C": "Capture demand for incident resolution and service requests",
+    "D": "Set business-based performance targets"
+  },
+  "correct": ["C"],
+  "explanation": "The Service Desk captures demand for incident resolution and service requests."
+  },
+  {
+  "id": 26,
+  "chapter": "Continual Improvement",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How should an organization adopt continual improvement methods?",
+  "options": {
+    "A": "Use a new method for each improvement the organization handles",
+    "B": "Select a few key methods for the types of improvement that the organization handles",
+    "C": "Build the capability to use as many improvement methods as possible",
+    "D": "Select a single method for all improvements that the organization handles"
+  },
+  "correct": ["B"],
+  "explanation": "Organizations should choose a limited set of improvement methods suitable for their needs."
+  },
+  {
+  "id": 27,
+  "chapter": "Service Value System",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which ITIL concept describes governance?",
+  "options": {
+    "A": "The seven guiding principles",
+    "B": "The four dimensions of service management",
+    "C": "The service value chain",
+    "D": "The service value system"
+  },
+  "correct": ["D"],
+  "explanation": "Governance is a component of the Service Value System (SVS)."
+  },
+  {
+  "id": 28,
+  "chapter": "Service Desk",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which is a recommendation of the service desk practice?",
+  "options": {
+    "A": "Service desks should avoid the use of automation",
+    "B": "Service desks should be highly technical",
+    "C": "Service desks should understand the wider organization",
+    "D": "Service desks should be a physical team in a single fixed location"
+  },
+  "correct": ["C"],
+  "explanation": "A successful service desk understands users, services, and the wider organization."
+  },
+  {
+  "id": 29,
+  "chapter": "Guiding Principles",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which guiding principle recommends organizing work into smaller, manageable sections that can be executed and completed in a timely manner?",
+  "options": {
+    "A": "Focus on value",
+    "B": "Start where you are",
+    "C": "Progress iteratively with feedback",
+    "D": "Collaborate and promote visibility"
+  },
+  "correct": ["C"],
+  "explanation": "Progress iteratively with feedback encourages small manageable steps."
+  },
+  {
+  "id": 30,
+  "chapter": "Change Enablement",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is a standard change?",
+  "options": {
+    "A": "A change that is well understood, fully documented and pre-authorized",
+    "B": "A change that needs assessment and authorization by a change authority",
+    "C": "A change needed to resolve an incident",
+    "D": "A change scheduled as part of continual improvement"
+  },
+  "correct": ["A"],
+  "explanation": "Standard changes are low-risk, pre-approved, and well understood."
+  },
+  {
+  "id": 31,
+  "chapter": "Problem Management",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "What happens if a workaround becomes the permanent way of dealing with a problem that cannot be resolved cost-effectively?",
+  "options": {
+    "A": "A change request is submitted to change enablement",
+    "B": "Problem management restores the service as soon as possible",
+    "C": "The problem remains in the known error status",
+    "D": "The problem record is deleted"
+  },
+  "correct": ["C"],
+  "explanation": "If a permanent solution is not cost-effective, the known error may remain with the workaround."
+  },
+  {
+  "id": 32,
+  "chapter": "Change Enablement",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the definition of change?",
+  "options": {
+    "A": "To add, modify or remove anything that could have a direct or indirect effect on services",
+    "B": "To ensure accurate service configuration information",
+    "C": "To make changed services available for use",
+    "D": "To move components into live environments"
+  },
+  "correct": ["A"],
+  "explanation": "A change is any addition, modification, or removal that affects services."
+  },
+  {
+  "id": 33,
+  "chapter": "Monitoring and Event Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the definition of an event?",
+  "options": {
+    "A": "Any change of state that has significance for the management of a service or other configuration item",
+    "B": "Any component needed to deliver an IT service",
+    "C": "An unplanned interruption to a service",
+    "D": "Any financially valuable component"
+  },
+  "correct": ["A"],
+  "explanation": "An event is any detectable state change significant to service management."
+  },
+  {
+  "id": 34,
+  "chapter": "Service Value",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which describes outcomes?",
+  "options": {
+    "A": "Tangible or intangible deliverables",
+    "B": "Functionality offered by a product or service",
+    "C": "Results desired by a stakeholder",
+    "D": "Configuration of organizational resources"
+  },
+  "correct": ["C"],
+  "explanation": "Outcomes are the results stakeholders want to achieve."
+  },
+  {
+  "id": 35,
+  "chapter": "Information and Technology",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which is NOT a key focus of the information and technology dimension?",
+  "options": {
+    "A": "Security and compliance",
+    "B": "Communication systems and knowledge bases",
+    "C": "Workflow management and inventory systems",
+    "D": "Roles and responsibilities"
+  },
+  "correct": ["D"],
+  "explanation": "Roles and responsibilities belong primarily to the Organizations and People dimension."
+  },
+  {
+  "id": 36,
+  "chapter": "Problem Management",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Which practices are typically involved in the implementation of a problem resolution?",
+  "options": {
+    "A": "1 and 2",
+    "B": "2 and 3",
+    "C": "3 and 4",
+    "D": "1 and 4"
+  },
+  "correct": ["D"],
+  "explanation": "Continual improvement and change enablement commonly support implementation of problem resolutions."
+  },
+  {
+  "id": 37,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which is a key consideration for the guiding principle 'keep it simple and practical'?",
+  "options": {
+    "A": "Try to create a solution for every exception",
+    "B": "Understand how each element contributes to value creation",
+    "C": "Ignore conflicting stakeholder objectives",
+    "D": "Start with a complex solution then simplify"
+  },
+  "correct": ["B"],
+  "explanation": "Only activities that contribute value should be retained."
+  },
+  {
+  "id": 38,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What should be done first when applying the 'focus on value' guiding principle?",
+  "options": {
+    "A": "Identify the outcomes that the service facilitates",
+    "B": "Identify all suppliers and partners involved",
+    "C": "Determine who the service consumer is in each situation",
+    "D": "Determine the cost of providing the service"
+  },
+  "correct": ["C"],
+  "explanation": "Understanding who is receiving value is the first step."
+  },
+  {
+  "id": 39,
+  "chapter": "Service Offering",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "A service provider describes a package that includes a laptop with software, licenses, and support. What is this package an example of?",
+  "options": {
+    "A": "Value",
+    "B": "An outcome",
+    "C": "Warranty",
+    "D": "A service offering"
+  },
+  "correct": ["D"],
+  "explanation": "A service offering is a combination of goods, access to resources, and service actions."
+  },
+  {
+  "id": 40,
+  "chapter": "Warranty and Utility",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the definition of warranty?",
+  "options": {
+    "A": "A tangible or intangible deliverable produced by carrying out an activity",
+    "B": "The assurance that a product or service will meet agreed requirements",
+    "C": "A possible event that could cause harm or loss",
+    "D": "The functionality offered by a product or service to meet a need"
+  },
+  "correct": ["B"],
+  "explanation": "Warranty is the assurance that a product or service meets agreed requirements."
+  },
+  {
+  "id": 41,
+  "chapter": "Incident Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the primary objective of incident management?",
+  "options": {
+    "A": "Identify root causes",
+    "B": "Restore normal service operation quickly",
+    "C": "Implement service improvements",
+    "D": "Manage changes"
+  },
+  "correct": ["B"],
+  "explanation": "Incident management focuses on restoring normal service operation as quickly as possible."
+  },
+  {
+  "id": 42,
+  "chapter": "Problem Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is a known error?",
+  "options": {
+    "A": "An incident without a workaround",
+    "B": "A risk identified during planning",
+    "C": "A problem with a documented cause and workaround",
+    "D": "A failed change"
+  },
+  "correct": ["C"],
+  "explanation": "A known error is a problem whose cause and possible workaround are known."
+  },
+  {
+  "id": 43,
+  "chapter": "Service Value System",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which component of the Service Value System provides recommendations that guide an organization?",
+  "options": {
+    "A": "Governance",
+    "B": "Guiding Principles",
+    "C": "Practices",
+    "D": "Value Chain"
+  },
+  "correct": ["B"],
+  "explanation": "Guiding Principles help organizations make decisions and take actions."
+  },
+  {
+  "id": 44,
+  "chapter": "Change Enablement",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which type of change is pre-authorized and low risk?",
+  "options": {
+    "A": "Emergency Change",
+    "B": "Normal Change",
+    "C": "Standard Change",
+    "D": "Major Change"
+  },
+  "correct": ["C"],
+  "explanation": "Standard changes are low-risk and pre-approved."
+  },
+  {
+  "id": 45,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which guiding principle recommends making information visible across teams?",
+  "options": {
+    "A": "Think and work holistically",
+    "B": "Focus on value",
+    "C": "Start where you are",
+    "D": "Collaborate and promote visibility"
+  },
+  "correct": ["D"],
+  "explanation": "Visibility helps collaboration and decision-making."
+  },
+  {
+  "id": 46,
+  "chapter": "Service Desk",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the service desk primarily responsible for?",
+  "options": {
+    "A": "Supplier negotiations",
+    "B": "Single point of contact for users",
+    "C": "Risk assessments",
+    "D": "Change approvals"
+  },
+  "correct": ["B"],
+  "explanation": "The service desk acts as the main point of contact between users and the service provider."
+  },
+  {
+  "id": 47,
+  "chapter": "Continual Improvement",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the purpose of continual improvement?",
+  "options": {
+    "A": "Maintain existing performance only",
+    "B": "Reduce all costs",
+    "C": "Align services with changing business needs",
+    "D": "Replace all practices"
+  },
+  "correct": ["C"],
+  "explanation": "Continual improvement ensures services evolve with business requirements."
+  },
+  {
+  "id": 48,
+  "chapter": "Monitoring and Event Management",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "What is the main value of monitoring?",
+  "options": {
+    "A": "Approving changes",
+    "B": "Detecting events and issues proactively",
+    "C": "Managing suppliers",
+    "D": "Creating service requests"
+  },
+  "correct": ["B"],
+  "explanation": "Monitoring helps identify issues before they significantly impact services."
+  },
+  {
+  "id": 49,
+  "chapter": "Service Request Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which is an example of a service request?",
+  "options": {
+    "A": "Server outage",
+    "B": "Application crash",
+    "C": "Password reset",
+    "D": "Security breach"
+  },
+  "correct": ["C"],
+  "explanation": "Password resets are common service requests."
+  },
+  {
+  "id": 50,
+  "chapter": "Information Security Management",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Information security focuses on protecting which three elements?",
+  "options": {
+    "A": "Cost, Value, Risk",
+    "B": "Utility, Warranty, Value",
+    "C": "Confidentiality, Integrity, Availability",
+    "D": "People, Process, Technology"
+  },
+  "correct": ["C"],
+  "explanation": "The CIA triad consists of Confidentiality, Integrity, and Availability."
+  },
+  {
+  "id": 61,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team believes evaluation only happens after implementation and skips pre-implementation assessment.",
+  "options": {
+    "A": "This is correct practice",
+    "B": "This misses evaluation's pre-implementation role",
+    "C": "Evaluation has no bearing on authorization",
+    "D": "Skipping it risks late risk discovery"
+  },
+  "correct": ["B", "D"],
+  "explanation": "Change evaluation should assess predicted impact before implementation. Skipping it increases the likelihood of late risk discovery."
+},
+{
+  "id": 62,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A major-problem-review finding leads to reclassifying a previously routine change type as higher-risk.",
+  "options": {
+    "A": "Reflects sound cross-practice learning",
+    "B": "Proportional response to new evidence",
+    "C": "Feeds lessons back into practice",
+    "D": "Findings should never influence classification",
+    "E": "Classification must stay fixed forever"
+  },
+  "correct": ["A", "B", "C"],
+  "explanation": "Problem review findings should be used to improve future change classification and risk assessment."
+},
+{
+  "id": 63,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A release-failure rate improves the same month automated gates are introduced, with no other reported changes.",
+  "options": {
+    "A": "This is definitive proof",
+    "B": "No further monitoring is needed",
+    "C": "Gates are a strong, not certain, explanation",
+    "D": "Other unreported factors still deserve a check"
+  },
+  "correct": ["C", "D"],
+  "explanation": "Correlation suggests the gates helped, but additional factors should still be considered."
+},
+{
+  "id": 64,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team eliminates all manual review, citing DevOps, even for high-risk poorly tested changes.",
+  "options": {
+    "A": "This misapplies DevOps principles",
+    "B": "Correct for any release regardless of risk",
+    "C": "High-risk changes still warrant real review",
+    "D": "DevOps supports proportional, not zero, governance",
+    "E": "Total elimination is required for genuine DevOps"
+  },
+  "correct": ["A", "C", "D"],
+  "explanation": "DevOps does not eliminate governance. Review should remain proportional to risk."
+},
+{
+  "id": 65,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "Alerts fire constantly and unfiltered; developers begin ignoring them entirely.",
+  "options": {
+    "A": "This undermines the feedback loop's purpose",
+    "B": "Tuning noise would restore its value",
+    "C": "Any feedback loop is automatically valuable",
+    "D": "This has no link to the Three Ways"
+  },
+  "correct": ["A", "B"],
+  "explanation": "Feedback loops only provide value when signals are relevant and actionable."
+},
+{
+  "id": 66,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team merges code multiple times daily with tests, but releases only via a manual trigger.",
+  "options": {
+    "A": "This is Continuous Deployment",
+    "B": "This is Continuous Integration in action",
+    "C": "Manual trigger fits Continuous Delivery better",
+    "D": "Delivery and Deployment are identical",
+    "E": "The distinction between them matters here"
+  },
+  "correct": ["B", "C", "E"],
+  "explanation": "Manual release approval indicates Continuous Delivery rather than Continuous Deployment."
+},
+{
+  "id": 67,
+  "chapter": "Measures and Metrics",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "A nonprofit tracks funds raised, meals distributed, and improved food security six months later.",
+  "options": {
+    "A": "Meals distributed functions as an Output",
+    "B": "Funds raised functions as an Outcome",
+    "C": "Improved food security functions as an Outcome or Impact",
+    "D": "All three measures are interchangeable"
+  },
+  "correct": ["A", "C"],
+  "explanation": "Meals distributed is an output, while improved food security represents an outcome or impact."
+},
+{
+  "id": 68,
+  "chapter": "Measures and Metrics",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "Leadership proposes one combined health score from three unrelated measures with no breakdown available.",
+  "options": {
+    "A": "This risks obscuring which area needs attention",
+    "B": "This is always the ideal simplification",
+    "C": "This fully preserves each measure's diagnostic value",
+    "D": "Retaining component visibility aids targeted decisions",
+    "E": "A summary score should not fully replace detail"
+  },
+  "correct": ["A", "D", "E"],
+  "explanation": "Summary scores can be useful, but underlying metrics should remain visible for decision-making."
+},
+{
+  "id": 69,
+  "chapter": "Measures and Metrics",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team builds dashboards from available data, then writes vision statements to justify them.",
+  "options": {
+    "A": "This is a bottom-up, retrofitted approach",
+    "B": "This guarantees strong strategic alignment",
+    "C": "This reflects sound top-down cascade practice",
+    "D": "Cascades should start from vision, not data"
+  },
+  "correct": ["A", "D"],
+  "explanation": "Effective measurement programs start with goals and strategy, then select supporting metrics."
+},
+{
+  "id": 70,
+  "chapter": "Measures and Metrics",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A KPI stays flat for six months and the team debates what that means.",
+  "options": {
+    "A": "Flat data always signals a serious problem",
+    "B": "A flat trend is inherently meaningless",
+    "C": "The trend alone does not reveal which explanation is true",
+    "D": "Connecting it to a goal clarifies its meaning",
+    "E": "Flat could reflect stability or stagnation depending on context"
+  },
+  "correct": ["C", "D", "E"],
+  "explanation": "Trend interpretation requires context and alignment with business goals."
+},
+{
+  "id": 71,
+  "chapter": "Learning ITIL",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "A firm wants a review of only how demand becomes delivered value, not authorization.",
+  "options": {
+    "A": "This is inherently an SVS-level request",
+    "B": "This scopes naturally to the SVC",
+    "C": "Governance is not the primary focus here",
+    "D": "Any workflow review needs full governance too"
+  },
+  "correct": ["B", "C"],
+  "explanation": "A workflow-focused review aligns naturally with the Service Value Chain rather than the broader Service Value System."
+},
+{
+  "id": 72,
+  "chapter": "Learning ITIL",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team renames documents from process to practice and declares transformation complete.",
+  "options": {
+    "A": "Renaming alone is sufficient completion",
+    "B": "Renaming alone is not enough",
+    "C": "No further principle review is needed now",
+    "D": "CSI means complete is a misnomer",
+    "E": "Ongoing reinforcement is still required"
+  },
+  "correct": ["B", "D", "E"],
+  "explanation": "Terminology changes alone do not represent full organizational transformation."
+},
+{
+  "id": 73,
+  "chapter": "Guiding Principles",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team proposes a complex multi-system fix for a minor display glitch.",
+  "options": {
+    "A": "This reflects Think Holistically correctly",
+    "B": "This risks violating Keep it Simple and Practical",
+    "C": "Guiding Principles do not apply here",
+    "D": "Minimum-steps-needed favors the simple fix"
+  },
+  "correct": ["B", "D"],
+  "explanation": "The simplest effective solution aligns with the Keep it Simple and Practical principle."
+},
+{
+  "id": 74,
+  "chapter": "Four Dimensions",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A cross-border delay traces to a broker's outdated protocol, not internal systems.",
+  "options": {
+    "A": "This is a Partners and Suppliers gap",
+    "B": "This is a People failure",
+    "C": "A supplier-focused dimensions check would help",
+    "D": "No dimension was neglected",
+    "E": "External causes can still be dimension gaps"
+  },
+  "correct": ["A", "C", "E"],
+  "explanation": "External suppliers and partners are explicitly addressed by the Four Dimensions model."
+},
+{
+  "id": 75,
+  "chapter": "Practice Categories",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "A release management practice and a risk management practice are compared for category.",
+  "options": {
+    "A": "Both are Technical Management",
+    "B": "Release management is General Management",
+    "C": "Release management is Service Management",
+    "D": "Risk management is General Management"
+  },
+  "correct": ["C", "D"],
+  "explanation": "Release Management is a Service Management Practice while Risk Management is a General Management Practice."
+},
+{
+  "id": 76,
+  "chapter": "Incident Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A single VIP calendar breaks while a shared server for 200 staff goes down.",
+  "options": {
+    "A": "Server issue warrants higher priority",
+    "B": "Priority ignores reporter seniority",
+    "C": "VIP status should set priority",
+    "D": "Impact drives the correct call",
+    "E": "Both deserve equal priority"
+  },
+  "correct": ["A", "B", "D"],
+  "explanation": "Impact and urgency, not seniority, drive incident priority."
+},
+{
+  "id": 77,
+  "chapter": "Incident Management",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "A global login outage gets a workaround in 10 minutes and leadership says it cannot be a Major Incident.",
+  "options": {
+    "A": "MI status is not canceled by a fast workaround",
+    "B": "Scale and impact still support MI coordination",
+    "C": "A workaround always blocks MI status",
+    "D": "Cause must be known first for MI"
+  },
+  "correct": ["A", "B"],
+  "explanation": "Major Incident classification is based on impact and scale rather than workaround availability."
+},
+{
+  "id": 78,
+  "chapter": "Incident Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "Wider agent permissions are proposed for common fixes.",
+  "options": {
+    "A": "Any permission expansion is too risky",
+    "B": "Scoped low-risk expansion aids FCC",
+    "C": "Boundaries address the stated risk concern",
+    "D": "Risk and improvement are not mutually exclusive",
+    "E": "FCC needs zero risk controls"
+  },
+  "correct": ["B", "C", "D"],
+  "explanation": "Permission expansion can improve First Contact Closure when appropriately controlled."
+},
+{
+  "id": 79,
+  "chapter": "Incident Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A telecom wants better FCC, less reassignment, and compliance maintained.",
+  "options": {
+    "A": "Better categorization cuts reassignment",
+    "B": "Removing all restrictions is most efficient",
+    "C": "Scoped permissions serve both FCC and compliance",
+    "D": "These goals cannot coexist"
+  },
+  "correct": ["A", "C"],
+  "explanation": "Better categorization and controlled permissions can improve support performance while maintaining governance."
+},
+{
+  "id": 80,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team has frequency data and comparative where/when data for one issue.",
+  "options": {
+    "A": "Frequency data suits Pareto",
+    "B": "Only one technique should ever apply",
+    "C": "Comparative data has no usable technique",
+    "D": "Comparative data suits Is/Is Not",
+    "E": "Different data types call for different tools"
+  },
+  "correct": ["A", "D", "E"],
+  "explanation": "Different RCA techniques fit different data types and can be used together."
+},
+{
+  "id": 81,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A Five Whys chain stops at 'vendor firmware bug'; the failure recurs after the vendor's patch.",
+  "options": {
+    "A": "Recurrence suggests an incomplete finding",
+    "B": "This is a complete, correct analysis",
+    "C": "No further investigation is warranted now",
+    "D": "A linear chain can miss added causes"
+  },
+  "correct": ["A", "D"],
+  "explanation": "Recurrence after a fix indicates additional contributing factors may exist and further investigation is needed."
+},
+{
+  "id": 82,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team has broad uncertain-category data and one strong hypothesis needing depth.",
+  "options": {
+    "A": "Pareto helps make sense of the volume",
+    "B": "Fishbone organizes the uncertain category",
+    "C": "Five Whys can drill the strong hypothesis later",
+    "D": "Skipping prioritization is most efficient",
+    "E": "Only one technique should ever be used"
+  },
+  "correct": ["A", "B", "C"],
+  "explanation": "Different RCA techniques serve different purposes and can be combined during an investigation."
+},
+{
+  "id": 83,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "Failures begin the same week a monitoring agent deploys; the team blames the agent immediately.",
+  "options": {
+    "A": "Timing alone is sufficient proof",
+    "B": "This is a premature conclusion",
+    "C": "A rigorous technique should test this first",
+    "D": "No further testing is ever needed"
+  },
+  "correct": ["B", "C"],
+  "explanation": "Correlation alone does not establish causation. Investigation should validate the hypothesis."
+},
+{
+  "id": 84,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A structural finding, a fault-tree deduction, and a hypothesis-testing technique are combined into one pre-migration report.",
+  "options": {
+    "A": "Using more than one technique here is redundant",
+    "B": "This combination is invalid by rule",
+    "C": "The techniques are complementary, not redundant",
+    "D": "Structural mapping and fault modeling answer different questions",
+    "E": "Hypothesis testing can add rigor after candidates surface"
+  },
+  "correct": ["C", "D", "E"],
+  "explanation": "Multiple techniques can complement each other by providing different perspectives on the same problem."
+},
+{
+  "id": 85,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "A brainstorming participant criticizes and discards every idea as it is raised.",
+  "options": {
+    "A": "This is correct brainstorming practice",
+    "B": "This suppresses useful input",
+    "C": "Brainstorming needs a known cause first",
+    "D": "Filtering belongs after generation, not during"
+  },
+  "correct": ["B", "D"],
+  "explanation": "Brainstorming should encourage idea generation before evaluation or filtering."
+},
+{
+  "id": 86,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A moderate recurring problem sparks debate between a full seven-technique review and a scaled one.",
+  "options": {
+    "A": "Mandating all seven regardless of scale is excessive",
+    "B": "Only a full review is ever valid for recurrence",
+    "C": "Scaled reviews fit proportionality guidance",
+    "D": "Depth should track actual significance",
+    "E": "Recurrence always requires senior escalation"
+  },
+  "correct": ["A", "C", "D"],
+  "explanation": "Review effort should be proportional to significance and business impact."
+},
+{
+  "id": 87,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A fault tree shows a system fails only if two independent power supplies fail together.",
+  "options": {
+    "A": "Model this as an OR gate",
+    "B": "Either failure alone is sufficient",
+    "C": "Model this as an AND gate",
+    "D": "Correct gate choice is essential here"
+  },
+  "correct": ["C", "D"],
+  "explanation": "When all conditions must occur together to produce failure, AND-gate logic applies."
+},
+{
+  "id": 88,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A Known Error is documented, but three engineers describe its root cause differently.",
+  "options": {
+    "A": "Disagreement suggests incomplete validation",
+    "B": "Further testing could reconcile the views",
+    "C": "Documentation guarantees full agreement",
+    "D": "No further clarification is needed",
+    "E": "A Known Error can exist before full agreement"
+  },
+  "correct": ["A", "B", "E"],
+  "explanation": "Known Errors may exist while investigations continue to refine root-cause understanding."
+},
+{
+  "id": 89,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A pipeline routes well-tested low-risk releases to fast-track and flags failures for review.",
+  "options": {
+    "A": "This is proportional gate-based risk assessment",
+    "B": "Fast-tracked releases can resemble Standard Changes",
+    "C": "Automation can never inform classification",
+    "D": "Every release always needs full review"
+  },
+  "correct": ["A", "B"],
+  "explanation": "Automated gates can support proportional, risk-based change classification."
+},
+{
+  "id": 90,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A major problem review finds one change type repeatedly caused incidents and should be reclassified as higher-risk.",
+  "options": {
+    "A": "Findings should never affect classification",
+    "B": "This reflects sound cross-practice learning",
+    "C": "This is a proportional response to new evidence",
+    "D": "Once Standard, always Standard",
+    "E": "This feeds lessons back into practice"
+  },
+  "correct": ["B", "C", "E"],
+  "explanation": "Problem-review findings should feed back into ongoing change classification and governance practices."
+},
+{
+  "id": 91,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team skips pre-implementation impact assessment, believing evaluation only happens afterward.",
+  "options": {
+    "A": "This overlooks evaluation's pre-implementation role",
+    "B": "This is correct standard practice",
+    "C": "Skipping it risks late risk discovery",
+    "D": "Evaluation has no bearing on authorization"
+  },
+  "correct": ["A", "C"],
+  "explanation": "Change Evaluation should occur before implementation as well as after implementation."
+},
+{
+  "id": 92,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A proposal has a completed evaluation and moderate-period scheduling, but no stated communication plan.",
+  "options": {
+    "A": "Assume communication was already handled",
+    "B": "The gap is worth flagging before approval",
+    "C": "A completed evaluation makes further scrutiny unnecessary",
+    "D": "Moderate risk reasonably supports full CAB review",
+    "E": "Raising the gap reflects sound caution"
+  },
+  "correct": ["B", "D", "E"],
+  "explanation": "A missing communication plan is a valid concern and should be reviewed before approval."
+},
+{
+  "id": 93,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team merges code daily with tests, but only releases via a manual trigger after review.",
+  "options": {
+    "A": "This matches Continuous Integration",
+    "B": "This matches Continuous Deployment",
+    "C": "Delivery and Deployment mean the same thing",
+    "D": "Manual-trigger release fits Delivery, not Deployment"
+  },
+  "correct": ["A", "D"],
+  "explanation": "Continuous Integration and Continuous Delivery are present, but Continuous Deployment is not."
+},
+{
+  "id": 94,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "Leadership wants all manual review eliminated, citing DevOps, even for high-risk poorly-tested changes.",
+  "options": {
+    "A": "This misapplies DevOps principles",
+    "B": "This is correct for any release and any risk",
+    "C": "High-risk changes still need real review",
+    "D": "DevOps favors proportional governance, not zero governance",
+    "E": "Full elimination is required for true DevOps"
+  },
+  "correct": ["A", "C", "D"],
+  "explanation": "DevOps supports efficiency and automation, but governance should remain proportional to risk."
+},
+{
+  "id": 95,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A release-failure rate improves after automated gates launch and no other changes are reported.",
+  "options": {
+    "A": "This proves the gates alone caused it",
+    "B": "Gates are a strong, not certain, explanation",
+    "C": "Unreported factors still deserve a check",
+    "D": "No further monitoring is needed now"
+  },
+  "correct": ["B", "C"],
+  "explanation": "Correlation supports the gate hypothesis but does not establish certainty."
+},
+{
+  "id": 96,
+  "chapter": "DevOps",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team limits work in progress, finishes features before starting new ones, and sees better throughput.",
+  "options": {
+    "A": "This reflects the Flow principle",
+    "B": "Finishing work reduces wasted effort",
+    "C": "More simultaneous work always helps more",
+    "D": "This has no link to the Three Ways",
+    "E": "Limiting WIP is a direct Flow application"
+  },
+  "correct": ["A", "B", "E"],
+  "explanation": "Limiting work-in-progress is a core application of the First Way (Flow)."
+},
+{
+  "id": 97,
+  "chapter": "Measures and Metrics",
+  "difficulty": "medium",
+  "type": "multiple",
+  "select": 2,
+  "question": "A CSF 'improve reliability' is measured via a KPI on uptime percentage.",
+  "options": {
+    "A": "The CSF is itself a directly measurable number",
+    "B": "The KPI gauges the CSF's progress",
+    "C": "A CSF can have only one KPI ever",
+    "D": "Multiple KPIs can support one CSF"
+  },
+  "correct": ["B", "D"],
+  "explanation": "KPIs provide measurable indicators that support evaluation of CSFs."
+},
+{
+  "id": 98,
+  "chapter": "Measures and Metrics",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team selects a metric mainly because the data already exists and is not connected to any goal.",
+  "options": {
+    "A": "This is the recommended selection method",
+    "B": "Data availability alone is always the best driver",
+    "C": "This risks violating Focus on Value",
+    "D": "Goal-connection should drive selection instead",
+    "E": "Guiding Principles are relevant to metric choice"
+  },
+  "correct": ["C", "D", "E"],
+  "explanation": "Metrics should support organizational goals and value creation rather than convenience."
+},
+{
+  "id": 99,
+  "chapter": "Measures and Metrics",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "Leadership claims a Balanced Scorecard is only useful for cost savings and not customer or staff measures.",
+  "options": {
+    "A": "This claim reflects the framework's real scope",
+    "B": "The framework excludes those perspectives",
+    "C": "This claim misrepresents the actual scope",
+    "D": "Multiple perspectives are the design point"
+  },
+  "correct": ["C", "D"],
+  "explanation": "Balanced Scorecard was designed to include Financial, Customer, Internal Process, and Learning & Growth perspectives."
+},
+{
+  "id": 100,
+  "chapter": "Measures and Metrics",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A rollout meets technical objectives, but stakeholders remain dissatisfied afterward.",
+  "options": {
+    "A": "Technical success alone doesn't confirm full value delivered",
+    "B": "Success should be judged beyond technical completion",
+    "C": "This is exactly the nuance a PIR should surface",
+    "D": "Meeting objectives makes this unambiguously successful",
+    "E": "Stakeholder dissatisfaction is irrelevant"
+  },
+  "correct": ["A", "B", "C"],
+  "explanation": "Post-Implementation Reviews should consider value realization and stakeholder perception, not only technical completion."
+},
+{
+  "id": 101,
+  "chapter": "Service Value System",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team says their SVC redesign already covers governance since Design and Transition includes stakeholder sign-off steps.",
+  "options": {
+    "A": "Sign-off steps do not make governance an SVC activity",
+    "B": "This claim is accurate as stated",
+    "C": "Any SVC activity with approvals fully covers governance",
+    "D": "Governance stays a distinct SVS-level component"
+  },
+  "correct": ["A", "D"],
+  "explanation": "Governance remains a separate SVS component and is not replaced by approval activities."
+},
+{
+  "id": 102,
+  "chapter": "Four Dimensions",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A vendor's staff were not trained on a new integration and the client blames its own People dimension.",
+  "options": {
+    "A": "Correctly diagnosed as the client's People dimension",
+    "B": "Training gaps always indicate the client's People dimension",
+    "C": "The untrained party belongs to a partner",
+    "D": "More precisely a Partners and Suppliers gap",
+    "E": "Whose staff lacked training changes which dimension applies"
+  },
+  "correct": ["C", "D", "E"],
+  "explanation": "Partner training issues typically fall under Partners and Suppliers."
+},
+{
+  "id": 103,
+  "chapter": "Guiding Principles",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team removes a feature nobody complained about without checking usage data, claiming Focus on Value.",
+  "options": {
+    "A": "This is a sound complete application",
+    "B": "No complaints is not evidence of no value",
+    "C": "Checking usage data would better support the decision",
+    "D": "Guiding Principles never require supporting data"
+  },
+  "correct": ["B", "C"],
+  "explanation": "Value decisions should be supported by evidence such as usage data."
+},
+{
+  "id": 104,
+  "chapter": "Service Lifecycle",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A live service undergoes redesign of one module while the rest serves users unchanged.",
+  "options": {
+    "A": "Redesign work aligns with Design and Transition",
+    "B": "The unchanged portion remains in Operation",
+    "C": "The whole service must sit under one stage",
+    "D": "One service can span multiple activities at once",
+    "E": "Redesign always halts Operation activity"
+  },
+  "correct": ["A", "B", "D"],
+  "explanation": "Different parts of a service can be in different lifecycle activities simultaneously."
+},
+{
+  "id": 105,
+  "chapter": "Practice Categories",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "Architecture management is debated because it involves technical architecture.",
+  "options": {
+    "A": "Generally General Management not Technical",
+    "B": "Category follows established grouping not name",
+    "C": "Anything with architecture in the name is Technical",
+    "D": "Technical sounding names always set category"
+  },
+  "correct": ["A", "B"],
+  "explanation": "Practice categories are based on ITIL classification rather than naming."
+},
+{
+  "id": 106,
+  "chapter": "Incident Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A low-impact issue will worsen rapidly while a stable high-impact issue remains unchanged.",
+  "options": {
+    "A": "The high-impact issue automatically outranks",
+    "B": "Urgency can elevate a lower-impact issue",
+    "C": "Impact and urgency must be weighed together",
+    "D": "Stability is irrelevant",
+    "E": "The worsening issue may reasonably need action first"
+  },
+  "correct": ["B", "C", "E"],
+  "explanation": "Priority is determined using both impact and urgency."
+},
+{
+  "id": 107,
+  "chapter": "Problem Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A workaround is applied so smoothly that recurrence is ignored.",
+  "options": {
+    "A": "Smooth workarounds prove resolution",
+    "B": "A good workaround removes tracking needs",
+    "C": "Smoothness can mask recurring causes",
+    "D": "Tracking recurrence remains valuable"
+  },
+  "correct": ["C", "D"],
+  "explanation": "Recurring issues should still be tracked even when workarounds work."
+},
+{
+  "id": 108,
+  "chapter": "Knowledge Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "FCC rises after a knowledge-base overhaul but leadership credits training that never changed.",
+  "options": {
+    "A": "The explanation does not match what changed",
+    "B": "Training must be the cause",
+    "C": "Correlation with the KB overhaul is irrelevant",
+    "D": "The KB overhaul is the better-supported explanation",
+    "E": "Misattributing cause can misdirect investment"
+  },
+  "correct": ["A", "D", "E"],
+  "explanation": "Evidence should drive conclusions about performance improvements."
+},
+{
+  "id": 109,
+  "chapter": "Problem Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A workaround has run flawlessly for a year and is called resolved.",
+  "options": {
+    "A": "Duration alone does not confirm root-cause resolution",
+    "B": "One year converts it to a permanent fix",
+    "C": "Calling it resolved may be inaccurate",
+    "D": "Workarounds automatically become fixes"
+  },
+  "correct": ["A", "C"],
+  "explanation": "Workarounds do not become permanent fixes merely because they work for a long period."
+},
+{
+  "id": 110,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "Two changes ship together and errors increase. One technical change is blamed immediately.",
+  "options": {
+    "A": "Technical sounding does not mean more likely",
+    "B": "Both changes remain plausible causes",
+    "C": "Isolating each change would strengthen conclusions",
+    "D": "The non-technical change can be dismissed",
+    "E": "Technical causes should always be assumed first"
+  },
+  "correct": ["A", "B", "C"],
+  "explanation": "Concurrent changes require careful investigation before assigning blame."
+},
+{
+  "id": 111,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A defect affects only one product line and unaffected data is discarded.",
+  "options": {
+    "A": "Unaffected data should be discarded",
+    "B": "Unaffected data is central to comparison",
+    "C": "Only affected data matters",
+    "D": "Affected versus unaffected comparison is core"
+  },
+  "correct": ["B", "D"],
+  "explanation": "Comparison data is critical to structured RCA."
+},
+{
+  "id": 112,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team stops Five Whys after two questions.",
+  "options": {
+    "A": "Two whys may not reach an actionable cause",
+    "B": "Any technical detail is enough to stop",
+    "C": "Asking further questions may reveal more",
+    "D": "Stopping early risks missing systemic causes",
+    "E": "The technique mandates stopping at two"
+  },
+  "correct": ["A", "C", "D"],
+  "explanation": "Five Whys should continue until the cause is sufficiently understood."
+},
+{
+  "id": 113,
+  "chapter": "Problem Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "One incident type is frequent but low impact; another is rare but severe.",
+  "options": {
+    "A": "Frequency alone should not set priority",
+    "B": "Most frequent always goes first",
+    "C": "Impact is irrelevant",
+    "D": "Combining frequency and impact is better"
+  },
+  "correct": ["A", "D"],
+  "explanation": "Investigation priorities should consider both frequency and impact."
+},
+{
+  "id": 114,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A risk matrix misses an unlisted shared network dependency.",
+  "options": {
+    "A": "Matrix confirms no risk exists",
+    "B": "Scope boundaries can hide risks",
+    "C": "No repeated component means complete safety",
+    "D": "Unlisted dependencies can still be risks",
+    "E": "Usefulness depends on complete definition"
+  },
+  "correct": ["B", "D", "E"],
+  "explanation": "Analysis quality depends on complete and accurate scope."
+},
+{
+  "id": 115,
+  "chapter": "Problem Management Techniques",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A system fails if either the primary database or backup fails.",
+  "options": {
+    "A": "This should be modeled as an AND gate",
+    "B": "This should be modeled as an OR gate",
+    "C": "The word 'and' does not necessarily mean AND logic",
+    "D": "Any sentence with and means AND"
+  },
+  "correct": ["B", "C"],
+  "explanation": "Logical relationships should be modeled according to system behavior, not wording."
+},
+{
+  "id": 116,
+  "chapter": "Problem Review",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A review avoids names but focuses heavily on assigning blame.",
+  "options": {
+    "A": "Avoiding names does not ensure blamelessness",
+    "B": "Tone and framing matter",
+    "C": "This is a correct blameless review",
+    "D": "Blameless means only not naming people",
+    "E": "Learning focus requires more than wording"
+  },
+  "correct": ["A", "B", "E"],
+  "explanation": "Blameless reviews focus on learning and systemic improvement."
+},
+{
+  "id": 117,
+  "chapter": "Root Cause Analysis",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team applies Is/Is Not analysis with vague information.",
+  "options": {
+    "A": "The technique depends on solid facts",
+    "B": "Using vague data risks poor conclusions",
+    "C": "It works equally well regardless of data quality",
+    "D": "Data quality is irrelevant"
+  },
+  "correct": ["A", "B"],
+  "explanation": "Structured comparison techniques require reliable information."
+},
+{
+  "id": 118,
+  "chapter": "Problem Management",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A team runs Five Whys before deciding which recurring problem deserves investigation.",
+  "options": {
+    "A": "This sequencing is always optimal",
+    "B": "Prioritization first is more efficient",
+    "C": "Drilling without a target risks effort",
+    "D": "Prioritization logically precedes drilling",
+    "E": "Technique order never matters"
+  },
+  "correct": ["B", "C", "D"],
+  "explanation": "Selecting the right problem before deep investigation improves efficiency."
+},
+{
+  "id": 119,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A team calls a change Standard because it has always been fine.",
+  "options": {
+    "A": "Always been fine is sufficient evidence",
+    "B": "Standard status requires no support",
+    "C": "Standard classification should rest on evidence",
+    "D": "Assuming safety without evidence is itself a risk"
+  },
+  "correct": ["C", "D"],
+  "explanation": "Standard Changes require evidence that risk is known and acceptable."
+},
+{
+  "id": 120,
+  "chapter": "Change Evaluation",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A low-impact prediction turns into high impact and the team wants to discard Change Evaluation.",
+  "options": {
+    "A": "One inaccurate prediction does not make it worthless",
+    "B": "Abandoning the practice is correct",
+    "C": "The miss should drive future improvement",
+    "D": "The practice should never be revisited",
+    "E": "Investigating the miss is productive"
+  },
+  "correct": ["A", "C", "E"],
+  "explanation": "Prediction errors provide learning opportunities for future evaluations."
+},
+{
+  "id": 121,
+  "chapter": "Change Enablement",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 2,
+  "question": "A moderate-risk change is proposed without review because it is not high-risk.",
+  "options": {
+    "A": "Not high risk does not mean no review",
+    "B": "Moderate risk should always bypass review",
+    "C": "Moderate risk may still require review",
+    "D": "Only high-risk changes need review"
+  },
+  "correct": ["A", "C"],
+  "explanation": "Review effort should be proportional to risk level."
+},
+{
+  "id": 122,
+  "chapter": "Change Communication",
+  "difficulty": "hard",
+  "type": "multiple",
+  "select": 3,
+  "question": "A change announcement reaches everyone but most people do not understand it.",
+  "options": {
+    "A": "Reach confirms effectiveness",
+    "B": "Reach and understanding are the same",
+    "C": "Reach without comprehension is insufficient",
+    "D": "The survey reveals a communication gap",
+    "E": "Message clarity matters separately"
+  },
+  "correct": ["C", "D", "E"],
+  "explanation": "Effective communication requires both delivery and understanding."
+},
+
+{
+  "id": 123,
+  "chapter": "Service Desk",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the effect of increased automation on the service desk practice?",
+  "options": {
+    "A": "Greater ability to focus on customer experience when personal contact is needed",
+    "B": "Decrease in self-service incident logging and resolution",
+    "C": "Increased ability to focus on fixing technology instead of supporting people",
+    "D": "Elimination of the need to escalate incidents to support teams"
+  },
+  "correct": ["A"],
+  "explanation": "Automation allows service desk staff to spend more time on customer interactions that require personal attention."
+},
+{
+  "id": 124,
+  "chapter": "Service Value",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which term describes the functionality offered by a service?",
+  "options": {
+    "A": "Cost",
+    "B": "Utility",
+    "C": "Warranty",
+    "D": "Risk"
+  },
+  "correct": ["B"],
+  "explanation": "Utility describes what a service does and how it meets customer needs."
+},
+{
+  "id": 125,
+  "chapter": "Monitoring and Event Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which is the purpose of the monitoring and event management practice?",
+  "options": {
+    "A": "To ensure that accurate and reliable information about the configuration of services is available when and where it is needed",
+    "B": "To systematically observe services and service components, and record and report selected changes of state",
+    "C": "To protect the information needed by the organization to conduct its business",
+    "D": "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible"
+  },
+  "correct": ["B"],
+  "explanation": "Monitoring and event management observes services and records significant changes of state."
+},
+{
+  "id": 126,
+  "chapter": "Continual Improvement",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What should all continual improvement decisions be based on?",
+  "options": {
+    "A": "Details of how services are measured",
+    "B": "Accurate and carefully analysed data",
+    "C": "An up-to-date balanced scorecard",
+    "D": "A recent maturity assessment"
+  },
+  "correct": ["B"],
+  "explanation": "Improvement decisions should be supported by reliable and analyzed data."
+},
+{
+  "id": 127,
+  "chapter": "Service Value Chain",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How do all value chain activities transform inputs to outputs?",
+  "options": {
+    "A": "By determining service demand",
+    "B": "By using a combination of practices",
+    "C": "By using a single functional team",
+    "D": "By implementing process automation"
+  },
+  "correct": ["B"],
+  "explanation": "Value chain activities use combinations of practices to transform inputs into outputs."
+},
+{
+  "id": 128,
+  "chapter": "Service Level Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How does customer engagement contribute to the service level management practice?",
+  "options": {
+    "A": "1 and 2",
+    "B": "2 and 3",
+    "C": "3 and 4",
+    "D": "1 and 4"
+  },
+  "correct": ["D"],
+  "explanation": "Customer engagement captures information that metrics can be based on and supports progress discussions."
+},
+{
+  "id": 129,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the starting point for optimization?",
+  "options": {
+    "A": "Securing stakeholder engagement",
+    "B": "Understanding the vision and objectives of the organization",
+    "C": "Determining where the most positive impact would be",
+    "D": "Standardizing practices and services"
+  },
+  "correct": ["B"],
+  "explanation": "Optimization begins with understanding organizational objectives and desired outcomes."
+},
+{
+  "id": 130,
+  "chapter": "Service Value System",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "The purpose of the ______ is to ensure that the organization continually co-creates value with all stakeholders in line with the organization's objectives.",
+  "options": {
+    "A": "Focus on value guiding principle",
+    "B": "Four dimensions of service management",
+    "C": "Service value system",
+    "D": "Service request management practice"
+  },
+  "correct": ["C"],
+  "explanation": "The Service Value System ensures continual value co-creation with stakeholders."
+},
+{
+  "id": 131,
+  "chapter": "Service Request Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which practice provides support for managing feedback, compliments and complaints from users?",
+  "options": {
+    "A": "Change control",
+    "B": "Service request management",
+    "C": "Problem management",
+    "D": "Incident management"
+  },
+  "correct": ["B"],
+  "explanation": "Service request management commonly handles user feedback, compliments and complaints."
+},
+{
+  "id": 132,
+  "chapter": "Service Relationship Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which joint activity performed by a service provider and service consumer ensures continual value co-creation?",
+  "options": {
+    "A": "Service provision",
+    "B": "Service consumption",
+    "C": "Service offering",
+    "D": "Service relationship management"
+  },
+  "correct": ["D"],
+  "explanation": "Service relationship management supports ongoing collaboration and value co-creation."
+},
+{
+  "id": 133,
+  "chapter": "Incident Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which practice may involve the initiation of disaster recovery?",
+  "options": {
+    "A": "Incident management",
+    "B": "Service request management",
+    "C": "Service level management",
+    "D": "IT asset management"
+  },
+  "correct": ["A"],
+  "explanation": "Major incidents may require disaster recovery measures to restore services."
+},
+{
+  "id": 134,
+  "chapter": "Service Request Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What type of change is most likely to be managed by the service request management practice?",
+  "options": {
+    "A": "A normal change",
+    "B": "An emergency change",
+    "C": "A standard change",
+    "D": "An application change"
+  },
+  "correct": ["C"],
+  "explanation": "Standard changes are commonly fulfilled through service request procedures."
+},
+{
+  "id": 135,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which guiding principle emphasizes understanding work in progress, identifying bottlenecks, and uncovering waste?",
+  "options": {
+    "A": "Focus on value",
+    "B": "Collaborate and promote visibility",
+    "C": "Think and work holistically",
+    "D": "Keep it simple and practical"
+  },
+  "correct": ["B"],
+  "explanation": "Visibility helps reveal bottlenecks, inefficiencies, and work-in-progress issues."
+},
+{
+  "id": 136,
+  "chapter": "Service Value",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is a means of enabling value co-creation by facilitating outcomes that customers want to achieve?",
+  "options": {
+    "A": "A service",
+    "B": "An output",
+    "C": "A practice",
+    "D": "Continual improvement"
+  },
+  "correct": ["A"],
+  "explanation": "A service enables value co-creation by facilitating desired outcomes."
+},
+{
+  "id": 137,
+  "chapter": "Change Enablement",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement about change authorization is CORRECT?",
+  "options": {
+    "A": "A change authority should be assigned to each type of change and change model",
+    "B": "Centralizing change authorization to a single person is the most effective means of authorization",
+    "C": "The authorization of normal changes should be expedited to ensure they can be implemented quickly",
+    "D": "Standard changes are high risk and should be authorized by the highest level of change authority"
+  },
+  "correct": ["A"],
+  "explanation": "Different change types and models may require different change authorities."
+},
+{
+  "id": 138,
+  "chapter": "Four Dimensions",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which dimension of service management considers governance, management, and communication?",
+  "options": {
+    "A": "Organizations and people",
+    "B": "Information and technology",
+    "C": "Partners and suppliers",
+    "D": "Value streams and processes"
+  },
+  "correct": ["A"],
+  "explanation": "Organizations and people includes culture, structure, communication, and governance aspects."
+},
+{
+  "id": 139,
+  "chapter": "Problem Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "A known error is a problem that has been ______ and has not been resolved.",
+  "options": {
+    "A": "Logged",
+    "B": "Analysed",
+    "C": "Escalated",
+    "D": "Closed"
+  },
+  "correct": ["B"],
+  "explanation": "A known error is a problem that has been analysed but remains unresolved."
+},
+{
+  "id": 140,
+  "chapter": "Problem Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement about known errors and problems is CORRECT?",
+  "options": {
+    "A": "Known error is the status assigned to a problem after it has been analysed",
+    "B": "A known error is the cause of one or more problems",
+    "C": "Known errors cause vulnerabilities, problems cause incidents",
+    "D": "Known errors are managed by technical staff, problems are managed by service management staff"
+  },
+  "correct": ["A"],
+  "explanation": "Problems become known errors once analysed and documented."
+},
+{
+  "id": 141,
+  "chapter": "Service Request Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What does the service request management practice depend on for maximum efficiency?",
+  "options": {
+    "A": "Compliments and complaints",
+    "B": "Self-service tools",
+    "C": "Processes and procedures",
+    "D": "Incident management"
+  },
+  "correct": ["B"],
+  "explanation": "Self-service capabilities improve the efficiency of handling service requests."
+},
+{
+  "id": 142,
+  "chapter": "Service Desk",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement about the service desk practice is CORRECT?",
+  "options": {
+    "A": "It provides a link with stakeholders at strategic and tactical levels",
+    "B": "It carries out change assessment and authorization",
+    "C": "It investigates the cause of incidents",
+    "D": "It needs a practical understanding of the business processes"
+  },
+  "correct": ["D"],
+  "explanation": "The service desk should understand business processes to support users effectively."
+},
+{
+  "id": 143,
+  "chapter": "Service Configuration Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which practice ensures that accurate and reliable information is available about configuration items and the relationships between them?",
+  "options": {
+    "A": "Service Configuration Management",
+    "B": "Service Desk",
+    "C": "IT Asset Management",
+    "D": "Monitoring and Event Management"
+  },
+  "correct": ["A"],
+  "explanation": "Service Configuration Management ensures that information about configuration items and their relationships is accurate and available."
+},
+{
+  "id": 144,
+  "chapter": "Incident Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which practice has a purpose that includes restoring normal service operation as quickly as possible?",
+  "options": {
+    "A": "Supplier Management",
+    "B": "Deployment Management",
+    "C": "Problem Management",
+    "D": "Incident Management"
+  },
+  "correct": ["D"],
+  "explanation": "Incident Management focuses on restoring normal service operation as quickly as possible."
+},
+{
+  "id": 145,
+  "chapter": "Service Consumer Roles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A customer is a person who defines the requirements for a service and takes responsibility for the ______ of service consumption.",
+  "options": {
+    "A": "Outputs",
+    "B": "Outcomes",
+    "C": "Costs",
+    "D": "Risks"
+  },
+  "correct": ["B"],
+  "explanation": "Customers define requirements and take responsibility for the outcomes of service consumption."
+},
+{
+  "id": 146,
+  "chapter": "Guiding Principles",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which guiding principle describes the importance of doing something instead of spending a long time analysing options?",
+  "options": {
+    "A": "Optimize and automate",
+    "B": "Start where you are",
+    "C": "Focus on value",
+    "D": "Progress iteratively with feedback"
+  },
+  "correct": ["D"],
+  "explanation": "Progress iteratively with feedback promotes taking manageable actions and learning from results."
+},
+{
+  "id": 147,
+  "chapter": "Problem Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What should be done for every problem?",
+  "options": {
+    "A": "It should be diagnosed to identify possible solutions",
+    "B": "It should be prioritized based on its potential impact and probability",
+    "C": "It should be resolved so that it can be closed",
+    "D": "It should have a workaround to reduce the impact"
+  },
+  "correct": ["B"],
+  "explanation": "Every problem should be prioritized so that resources can be allocated appropriately."
+},
+{
+  "id": 148,
+  "chapter": "Continual Improvement",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How should an organization include third-party suppliers in continual improvement activities?",
+  "options": {
+    "A": "Ensure suppliers include details of their approach to service improvement in contracts",
+    "B": "Require evidence that suppliers use agile development methods",
+    "C": "Require evidence that suppliers implement all improvements using project management practices",
+    "D": "Ensure all supplier problem management activities result in improvements"
+  },
+  "correct": ["A"],
+  "explanation": "Suppliers should be contractually aligned with continual improvement objectives."
+},
+{
+  "id": 149,
+  "chapter": "Supplier Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What consideration influences an organization's supplier strategy?",
+  "options": {
+    "A": "Contracts and agreements",
+    "B": "Type of cooperation with suppliers",
+    "C": "Corporate culture of the organization",
+    "D": "Level of formality"
+  },
+  "correct": ["B"],
+  "explanation": "Supplier strategy is influenced by how the organization chooses to cooperate with suppliers."
+},
+{
+  "id": 150,
+  "chapter": "Problem Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is a problem?",
+  "options": {
+    "A": "An addition or modification that could have an effect on services",
+    "B": "Any change of state that has significance for the management of a configuration item",
+    "C": "A cause or potential cause of one or more incidents",
+    "D": "An unplanned reduction in the quality of a service"
+  },
+  "correct": ["C"],
+  "explanation": "A problem is a cause, or potential cause, of one or more incidents."
+},
+{
+  "id": 151,
+  "chapter": "Relationship Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the purpose of the relationship management practice?",
+  "options": {
+    "A": "To align practices and services with changing business needs",
+    "B": "To establish and nurture links between the organization and its stakeholders at strategic and tactical levels",
+    "C": "To reduce the likelihood and impact of incidents",
+    "D": "To restore service operation as quickly as possible"
+  },
+  "correct": ["B"],
+  "explanation": "Relationship Management focuses on building and maintaining stakeholder relationships."
+},
+{
+  "id": 152,
+  "chapter": "Guiding Principles",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which is intended to help an organization adopt and adapt ITIL guidance?",
+  "options": {
+    "A": "The four dimensions of service management",
+    "B": "The guiding principles",
+    "C": "The service value chain",
+    "D": "Practices"
+  },
+  "correct": ["B"],
+  "explanation": "The guiding principles help organizations adapt ITIL recommendations to their specific circumstances."
+},
+{
+  "id": 153,
+  "chapter": "Service Value",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is an output?",
+  "options": {
+    "A": "A change of state that has significance for the management of a configuration item",
+    "B": "A possible event that could cause harm or loss",
+    "C": "A result for a stakeholder",
+    "D": "Something created by carrying out an activity"
+  },
+  "correct": ["D"],
+  "explanation": "An output is a tangible or intangible deliverable produced by an activity."
+},
+{
+  "id": 154,
+  "chapter": "Measures and Metrics",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the reason for using a balanced bundle of service metrics?",
+  "options": {
+    "A": "It reduces the number of metrics that need to be collected",
+    "B": "It reports each service element separately",
+    "C": "It provides an outcome-based view of services",
+    "D": "It facilitates the automatic collection of metrics"
+  },
+  "correct": ["C"],
+  "explanation": "A balanced set of metrics helps provide a broader outcome-focused perspective of service performance."
+},
+{
+  "id": 155,
+  "chapter": "Incident Management",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Why should incidents be prioritized?",
+  "options": {
+    "A": "To help automated matching of incidents to problems or known errors",
+    "B": "To identify which support team the incident should be escalated to",
+    "C": "To ensure that incidents with the highest business impact are resolved first",
+    "D": "To encourage a high level of collaboration within and between teams"
+  },
+  "correct": ["C"],
+  "explanation": "Prioritization ensures resources are focused on incidents that have the most significant business impact."
+},
+{
+  "id": 156,
+  "chapter": "IT Asset Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which practice has a purpose that includes helping the organization maximize value, control costs and manage risks?",
+  "options": {
+    "A": "Relationship Management",
+    "B": "IT Asset Management",
+    "C": "Release Management",
+    "D": "Service Desk"
+  },
+  "correct": ["B"],
+  "explanation": "IT Asset Management helps maximize value from assets while controlling costs and managing risks."
+},
+{
+  "id": 157,
+  "chapter": "Service Desk",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Why should service desk staff detect recurring issues?",
+  "options": {
+    "A": "To help identify problems",
+    "B": "To escalate incidents to the correct support team",
+    "C": "To ensure effective handling of service requests",
+    "D": "To engage the correct change authority"
+  },
+  "correct": ["A"],
+  "explanation": "Recurring incidents can indicate underlying problems that require investigation."
+},
+{
+  "id": 158,
+  "chapter": "Service Value Chain",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which value chain activity communicates the current status of all four dimensions of service management?",
+  "options": {
+    "A": "Improve",
+    "B": "Engage",
+    "C": "Obtain/Build",
+    "D": "Plan"
+  },
+  "correct": ["D"],
+  "explanation": "The Plan activity ensures shared understanding of vision, status and improvement direction."
+},
+{
+  "id": 159,
+  "chapter": "Guiding Principles",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which guiding principle is primarily concerned with a consumer's revenue and growth?",
+  "options": {
+    "A": "Keep it simple and practical",
+    "B": "Optimize and automate",
+    "C": "Progress iteratively with feedback",
+    "D": "Focus on value"
+  },
+  "correct": ["D"],
+  "explanation": "Focus on value emphasizes understanding and delivering what is valuable to consumers."
+},
+{
+  "id": 160,
+  "chapter": "Service Level Management",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which practice provides visibility of the organization's services by capturing and reporting on service performance?",
+  "options": {
+    "A": "Service Desk",
+    "B": "Service Level Management",
+    "C": "Service Request Management",
+    "D": "Service Configuration Management"
+  },
+  "correct": ["B"],
+  "explanation": "Service Level Management measures, monitors and reports service performance."
+},
+{
+  "id": 161,
+  "chapter": "Change Enablement",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which is the best example of an emergency change?",
+  "options": {
+    "A": "The implementation of a planned new release of a software application",
+    "B": "A low-risk computer upgrade implemented as a service request",
+    "C": "The implementation of a security patch to a critical software application",
+    "D": "A scheduled major hardware and software implementation"
+  },
+  "correct": ["C"],
+  "explanation": "Emergency changes are implemented quickly to resolve critical issues or vulnerabilities."
+},
+{
+  "id": 162,
+  "chapter": "Guiding Principles",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which guiding principle recommends assessing the current state and deciding what can be reused?",
+  "options": {
+    "A": "Focus on value",
+    "B": "Start where you are",
+    "C": "Collaborate and promote visibility",
+    "D": "Progress iteratively with feedback"
+  },
+  "correct": ["B"],
+  "explanation": "Start where you are encourages evaluating existing resources before making changes."
+}
+
+]

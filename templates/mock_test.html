@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>{{ course_name }} Test</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/mock.css') }}">
+
+</head>
+
+<body>
+
+<div class="exam-container">
+
+    <!-- ========================= -->
+    <!-- LEFT PANEL -->
+    <!-- ========================= -->
+
+    <div class="left-panel">
+
+        <div class="logo">
+
+            {{ course_name }} Mock
+
+        </div>
+
+        <!-- <div class="timer">
+
+            ⏱ Time Left
+
+            <h2 id="timer">
+
+                60:00
+
+            </h2>
+
+        </div> -->
+
+        <div class="progress-box">
+
+            <h3>
+
+                Progress
+
+            </h3>
+
+            <p>
+
+                Question
+
+                <strong>
+
+                    {{ current }}
+
+                </strong>
+
+                of
+
+                <strong>
+
+                    {{ total }}
+
+                </strong>
+
+            </p>
+
+            <progress
+
+                value="{{ current }}"
+
+                max="{{ total }}">
+
+            </progress>
+
+        </div>
+
+        <div class="legend">
+
+            <h3>Status</h3>
+
+            <p><span class="answered-box"></span> Answered</p>
+
+            <p><span class="review-box"></span> Review</p>
+
+            <p><span class="current-box"></span> Current</p>
+
+            <p><span class="notanswered-box"></span> Not Answered</p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- RIGHT PANEL -->
+    <!-- ========================= -->
+
+    <div class="right-panel">
+
+        <div class="top-header">
+
+            <div>
+
+                <h2>
+
+                    Question {{ current }}
+
+                </h2>
+
+                <small>
+
+                    {{ question.chapter }}
+
+                </small>
+
+            </div>
+
+            <div>
+
+                Difficulty :
+
+                <strong>
+
+                    {{ question.difficulty|capitalize }}
+
+                </strong>
+
+            </div>
+
+        </div>
+
+        <form method="POST">
+
+            <div class="question-card">
+
+                <h3>
+
+                    {{ question.question }}
+
+                </h3>
+
+                <br>
+
+                {% if question.type=="multiple" %}
+
+                <div class="info">
+
+                    Select exactly
+
+                    {{ question.select }}
+
+                    answers.
+
+                </div>
+
+                <br>
+
+                {% endif %}
+                {% if error %}
+                <div class="exam-error">
+                    {{ error }}
+                </div>
+                {% endif %}
+                
+                {% for key,value in question.options.items() %}
+                
+
+                <label class="option">
+
+                    <input
+
+                        type="{% if question.type=='single' %}radio{% else %}checkbox{% endif %}"
+
+                        name="answer"
+
+                        value="{{ key }}"
+
+                        {% if key in selected %}checked{% endif %}>
+
+                    <strong>
+
+                        {{ key }}.
+
+                    </strong>
+
+                    {{ value }}
+
+                </label>
+
+                {% endfor %}
+
+            </div>
+
+            <div class="navigation">
+
+                {% if current>1 %}
+
+                <button
+
+                    name="action"
+
+                    value="previous"
+
+                    class="secondary">
+
+                    ◀ Previous
+
+                </button>
+
+                {% endif %}
+
+                <button
+
+                    name="action"
+
+                    value="review"
+
+                    class="review">
+
+                    Mark for Review
+
+                </button>
+
+                {% if current<total %}
+
+                <button
+
+                    name="action"
+
+                    value="next"
+
+                    class="primary">
+
+                    Next ▶
+
+                </button>
+
+                {% else %}
+
+                <button
+
+                    name="action"
+
+                    value="submit"
+
+                    class="submit">
+
+                    Submit Exam
+
+                </button>
+
+                {% endif %}
+
+            </div>
+
+        </form>
+
+        <!-- ========================= -->
+        <!-- QUESTION PALETTE -->
+        <!-- ========================= -->
+
+        <div class="palette">
+
+            <h3>
+
+                Question Palette
+
+            </h3>
+
+            <div class="palette-grid">
+
+                {% for p in palette %}
+
+                <form method="POST">
+
+                    <input
+
+                        type="hidden"
+
+                        name="jump"
+
+                        value="{{ p.number }}">
+
+                    <button
+
+                        name="action"
+
+                        value="jump"
+
+                        class="
+                        {% if p.current %}
+                        current
+                        {% elif p.status=='answered' %}
+                        answered
+                        {% elif p.status=='review' %}
+                        review
+                        {% else %}
+                        notanswered
+                        {% endif %}
+                        ">
+
+                        {{ p.number }}
+
+                    </button>
+
+                </form>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+let time = Number("{{ remaining }}");
+<script>
+
+
+const timer = document.getElementById("timer");
+
+setInterval(function(){ 
+
+    let min = Math.floor(time / 60);
+
+    let sec = time % 60;
+
+    timer.innerHTML =
+
+        String(min).padStart(2,'0')
+
+        + ":"
+
+        +
+
+        String(sec).padStart(2,'0');
+
+    if(time>0){
+
+        time--;
+
+    }
+
+},1000);
+// Prevent browser Back/Forward cache from showing an old exam question
+window.addEventListener("pageshow", function(event) {
+
+    if (event.persisted) {
+        window.location.reload();
+    }
+
+});
+
+window.addEventListener("pageshow", function (event) {
+
+    if (event.persisted) {
+        window.location.reload();
+    }
+
+});
+</script>
+
+</body>
+
+</html>

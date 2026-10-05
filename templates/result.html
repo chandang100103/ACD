@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{course_name}} Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/mock.css') }}">
+
+</head>
+
+<body class="dashboard-page">
+
+<div class="result-container">
+
+    <!-- ================= RESULT SUMMARY ================= -->
+
+    <div class="result-summary">
+
+        <h1>🎓 {{ course_name }} Result</h1>
+
+        {% if result.passed %}
+
+            <div class="pass-banner">
+
+                ✅ PASS
+
+            </div>
+
+        {% else %}
+
+            <div class="fail-banner">
+
+                ❌ FAIL
+
+            </div>
+
+        {% endif %}
+
+        <div class="score-grid">
+
+            <div class="score-box">
+
+                <h3>Score</h3>
+
+                <p>{{ result.score }}/{{ result.total }}</p>
+
+            </div>
+
+            <div class="score-box">
+
+                <h3>Percentage</h3>
+
+                <p>{{ result.percentage }}%</p>
+
+            </div>
+
+            <div class="score-box">
+
+                <h3>Passing</h3>
+
+                <p>{{ pass_percentage }}%</p>
+
+            </div>
+
+        </div>
+
+        <div class="result-buttons">
+
+            <a href="/restart_exam" class="action-btn">
+
+                🔄 Restart Exam
+
+            </a>
+
+            {% if course == "basis" %}
+                <a href="{{ url_for('basis') }}" class="action-btn">
+                        📘 Back to SAP BASIS
+                </a>
+            {% elif course == "itil" %}
+                <a href="{{ url_for('itil') }}" class="action-btn">
+                        📘 Back to ITIL 4
+                </a>
+            {% endif %}
+        </div>
+
+    </div>
+
+    <!-- ================= REVIEW ================= -->
+
+    <h2 class="review-title">
+
+        📋 Review Answers
+
+    </h2>
+
+    {% for q in review %}
+
+    <div class="review-card">
+
+        <div class="question-header">
+
+            <h3>
+
+                Q{{ loop.index }}
+
+            </h3>
+
+            <span class="chapter">
+
+                {{ q.chapter }}
+
+            </span>
+
+        </div>
+
+        <div class="difficulty">
+
+            Difficulty :
+            <strong>{{ q.difficulty|capitalize }}</strong>
+
+        </div>
+
+        <p class="question-text">
+
+            {{ q.question }}
+
+        </p>
+
+        {% for key,value in q.options.items() %}
+
+        <div class="review-option
+
+            {% if key in q.correct %}
+                correct-option
+            {% endif %}
+
+            {% if key in q.selected and key not in q.correct %}
+                wrong-option
+            {% endif %}">
+
+            <strong>{{ key }}.</strong>
+
+            {{ value }}
+
+        </div>
+
+        {% endfor %}
+
+        <div class="answer-section">
+
+            <p>
+
+                <strong>Your Answer :</strong>
+
+                {{ q.selected|join(', ') if q.selected else "Not Answered" }}
+
+            </p>
+
+            <p>
+
+                <strong>Correct Answer :</strong>
+
+                {{ q.correct|join(', ') }}
+
+            </p>
+
+            <p>
+
+                <strong>Explanation :</strong>
+
+                {{ q.explanation }}
+
+            </p>
+
+        </div>
+
+        {% if q.is_correct %}
+
+            <div class="correct-tag">
+
+                ✅ Correct
+
+            </div>
+
+        {% else %}
+
+            <div class="wrong-tag">
+
+                ❌ Incorrect
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+</body>
+
+</html>

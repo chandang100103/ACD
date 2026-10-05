@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+flask_session/
+static/pdfs/basis/notes/TADM_10_1.pdf
+static/pdfs/basis/notes/TADM_10_2.pdf
+static/pdfs/basis/notes/TADM_12_1.pdf
+static/pdfs/basis/notes/TADM_12_2.pdf
+static/pdfs/basis/notes/HA_200.pdfgit status

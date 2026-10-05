@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="dashboard-page">
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <h2>Academy for Cloud Delivery</h2>
+
+        <a href="/dashboard">🏠 Dashboard</a>
+        <a href="/itil">📘 ITIL 4</a>
+        <a href="/az900">☁️ AZ-900</a>
+        <a href="/az104">⚙️ AZ-104</a>
+        <a href="/basis">🖥️ SAP BASIS</a>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <div class="topbar">
+            <h1>Welcome</h1>
+        </div>
+
+
+        <!-- Course Cards -->
+        <div class="cards">
+
+            <!-- ITIL -->
+            <div class="course-card">
+
+                <div class="icon">📘</div>
+
+                <h2>ITIL 4</h2>
+
+                <p>
+                    Practice ITIL 4 Foundation mock exams
+                    and test your knowledge.
+                </p>
+
+                <a href="/itil" class="btn">
+                    Open Course
+                </a>
+
+            </div>
+
+
+            <!-- AZ-900 -->
+            <div class="course-card">
+
+                <div class="icon">☁️</div>
+
+                <h2>AZ-900</h2>
+
+                <p>
+                    Practice Microsoft Azure Fundamentals
+                    mock exams.
+                </p>
+
+                <a href="/az900" class="btn">
+                    Open Course
+                </a>
+
+            </div>
+
+
+            <!-- AZ-104 -->
+            <div class="course-card">
+
+                <div class="icon">⚙️</div>
+
+                <h2>AZ-104</h2>
+
+                <p>
+                    Practice Microsoft Azure Administrator
+                    mock exams.
+                </p>
+
+                <a href="/az104" class="btn">
+                    Open Course
+                </a>
+
+            </div>
+
+
+            <!-- SAP BASIS -->
+            <div class="course-card">
+
+                <div class="icon">🖥️</div>
+
+                <h2>SAP BASIS</h2>
+
+                <p>
+                    Practice SAP BASIS administration
+                    mock exams.
+                </p>
+
+                <a href="/basis" class="btn">
+                    Open Course
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>

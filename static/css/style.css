@@ -1,0 +1,641 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, Arial, sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ===========================
+   LOGIN PAGE
+=========================== */
+
+.login-page{
+    background:linear-gradient(135deg,#2563eb,#0f172a);
+    min-height:100vh;
+}
+
+.login-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-card{
+
+    width:400px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+
+}
+
+.login-card h1{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.input-group{
+
+    margin-bottom:20px;
+
+}
+
+.input-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+.input-group input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+}
+
+.input-group input:focus{
+
+    outline:none;
+
+    border-color:#2563eb;
+
+}
+
+.error-box{
+
+    background:#ffe7e7;
+
+    color:red;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    margin-bottom:20px;
+
+}
+
+.footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:13px;
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* ===========================
+   DASHBOARD
+=========================== */
+
+.dashboard-page{
+
+    background:#f4f7fb;
+
+    min-height:100vh;
+
+}
+
+nav{
+
+    background:#1f2937;
+
+    color:white;
+
+    padding:18px 40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+nav h2{
+
+    font-size:24px;
+
+}
+
+nav a{
+
+    color:white;
+
+}
+
+.container{
+
+    padding:40px;
+
+}
+
+.container h1{
+
+    margin-bottom:30px;
+
+    color:#222;
+
+}
+
+.cards{
+
+    display:flex;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:300px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.1);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.card h2{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+/*=====================
+LAYOUT
+======================*/
+
+.layout{
+    display:flex;
+    min-height:100vh;
+}
+
+/*=====================
+SIDEBAR
+======================*/
+
+.sidebar{
+
+    width:240px;
+
+    background:#111827;
+
+    color:white;
+
+    padding:25px;
+
+}
+
+.sidebar h2{
+
+    margin-bottom:30px;
+
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    padding:14px;
+
+    border-radius:8px;
+
+    margin-bottom:10px;
+
+}
+
+.sidebar a:hover{
+
+    background:#2563eb;
+
+}
+
+/*=====================
+MAIN
+======================*/
+
+.main-content{
+
+    flex:1;
+
+    padding:40px;
+
+    background:#f5f7fb;
+
+}
+
+.topbar{
+
+    margin-bottom:35px;
+
+}
+
+/*=====================
+COURSE CARDS
+======================*/
+
+.course-card{
+
+    background:white;
+
+    width:300px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.course-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.icon{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+.course-card h2{
+
+    margin-bottom:10px;
+
+}
+
+.course-card p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.btn{
+
+    display:block;
+
+    text-align:center;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:8px;
+
+}
+
+.btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.cards{
+
+    display:flex;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+.section-title{
+
+    margin:40px 0 20px;
+
+    color:#1f2937;
+
+}
+
+#searchBox{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    margin:20px 0 30px;
+
+    font-size:16px;
+
+}
+
+.pdf-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-top:20px;
+
+}
+
+.pdf-buttons .btn{
+
+    flex:1;
+
+}
+
+.download-btn{
+
+    background:#16a34a;
+
+}
+
+.download-btn:hover{
+
+    background:#15803d;
+
+}
+
+.course-card h3{
+
+    min-height:70px;
+
+    font-size:18px;
+
+    color:#222;
+
+}
+/* =====================================
+   ITIL PAGE
+===================================== */
+
+.page-subtitle{
+    color:#6b7280;
+    margin-top:6px;
+}
+
+.search-box{
+    margin:25px 0;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px 18px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:15px;
+    outline:none;
+}
+
+.search-box input:focus{
+    border-color:#2563eb;
+}
+
+.tabs{
+    display:flex;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.tab-btn{
+    background:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    transition:.25s;
+}
+
+.tab-btn:hover{
+    background:#2563eb;
+    color:white;
+}
+
+.tab-btn.active{
+    background:#2563eb;
+    color:white;
+}
+
+.tab-content{
+    display:none;
+}
+
+.tab-content.active{
+    display:block;
+}
+
+/* =====================================
+   PDF GRID
+===================================== */
+
+.pdf-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:18px;
+}
+
+/* Smaller cards */
+
+.pdf-card{
+    padding:18px;
+    min-height:190px;
+}
+
+.pdf-card .icon{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.pdf-card h3{
+    font-size:18px;
+    line-height:1.4;
+    min-height:50px;
+    margin-bottom:10px;
+}
+
+.pdf-type{
+    color:#777;
+    font-size:14px;
+    margin-bottom:18px;
+}
+
+.pdf-buttons{
+    display:flex;
+    gap:10px;
+}
+
+.pdf-buttons .btn{
+    flex:1;
+    padding:10px;
+    font-size:14px;
+}
+
+.download-btn{
+    background:#16a34a;
+}
+
+.download-btn:hover{
+    background:#15803d;
+}
+
+/* =====================================
+   ACTIVE SIDEBAR
+===================================== */
+
+.sidebar .active-link{
+    background:#2563eb;
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media(max-width:900px){
+
+    .layout{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+    }
+
+    .cards{
+        justify-content:center;
+    }
+
+    .tabs{
+        flex-wrap:wrap;
+    }
+
+}
+.pdf-card label{
+
+    display:block;
+
+    margin:8px 0;
+
+    cursor:pointer;
+
+}
+
+.pdf-card input{
+
+    margin-right:10px;
+
+}
+
+.pdf-card{
+
+    max-width:850px;
+
+}

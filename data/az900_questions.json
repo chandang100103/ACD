@@ -1,0 +1,6148 @@
+[
+  {
+    "id": 1,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which redundancy option keeps multiple copies within a single region?",
+    "options": {
+      "A": "LRS",
+      "B": "GRS",
+      "C": "RA-GRS",
+      "D": "ZRS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Locally redundant storage keeps multiple copies within a local region/datacenter boundary."
+  },
+  {
+    "id": 2,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 3,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During an Azure design review, In this scenario, which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 4,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 5,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 6,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service provides virtualized desktops and applications to users?",
+    "options": {
+      "A": "Azure Virtual Desktop",
+      "B": "Azure Data Box",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Desktop delivers desktops and applications from Azure."
+  },
+  {
+    "id": 7,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 8,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which cloud benefit is focused on keeping a service operational despite component failures?",
+    "options": {
+      "A": "High availability",
+      "B": "Tagging",
+      "C": "Cost management",
+      "D": "Identity federation"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "High availability is designed to keep services available despite failures."
+  },
+  {
+    "id": 9,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service provides managed file shares?",
+    "options": {
+      "A": "Azure Files",
+      "B": "Blob Storage",
+      "C": "Queue Storage",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Files provides managed cloud file shares."
+  },
+  {
+    "id": 10,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 11,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 12,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During an Azure design review, Which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 13,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 14,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 15,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 16,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 17,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service provides managed file shares?",
+    "options": {
+      "A": "Azure Files",
+      "B": "Blob Storage",
+      "C": "Queue Storage",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Files provides managed cloud file shares."
+  },
+  {
+    "id": 18,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which blob access tier is intended for frequently accessed data?",
+    "options": {
+      "A": "Hot",
+      "B": "Cool",
+      "C": "Archive",
+      "D": "Offline"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Hot tier is optimized for frequently accessed data."
+  },
+  {
+    "id": 19,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service runs event-driven code without requiring server management?",
+    "options": {
+      "A": "Azure Functions",
+      "B": "Azure Virtual Machines",
+      "C": "Azure Files",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Functions is a serverless, event-driven compute service."
+  },
+  {
+    "id": 20,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service is designed to monitor application performance and application telemetry?",
+    "options": {
+      "A": "Application Insights",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Data Box"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Application Insights provides application performance monitoring and telemetry."
+  },
+  {
+    "id": 21,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which Azure service provides on-demand Windows or Linux virtual machines?",
+    "options": {
+      "A": "Azure Virtual Machines",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Machines provides configurable Windows and Linux VMs."
+  },
+  {
+    "id": 22,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 23,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. In this scenario, which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 24,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which compute option packages an application and its dependencies in a lightweight isolated environment?",
+    "options": {
+      "A": "Container",
+      "B": "Availability set",
+      "C": "Resource group",
+      "D": "Management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Containers package applications and dependencies and provide lightweight isolation."
+  },
+  {
+    "id": 25,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure region?",
+    "options": {
+      "A": "A geographic area containing one or more Azure datacenters",
+      "B": "A billing tag",
+      "C": "A virtual machine",
+      "D": "A user account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "An Azure region is a geographic area containing Azure datacenters."
+  },
+  {
+    "id": 26,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which hierarchy is correct?",
+    "options": {
+      "A": "Management group > subscription > resource group > resource",
+      "B": "Resource group > subscription > management group > resource",
+      "C": "Subscription > resource > management group > resource group",
+      "D": "Region > resource group > subscription > resource"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure management hierarchy is management groups, subscriptions, resource groups, and resources."
+  },
+  {
+    "id": 27,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service creates an encrypted connection between an on-premises network and Azure over the public internet?",
+    "options": {
+      "A": "VPN Gateway",
+      "B": "ExpressRoute",
+      "C": "Azure DNS",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VPN Gateway can create encrypted site-to-site VPN connections over the internet."
+  },
+  {
+    "id": 28,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which command-line utility can copy data to and from Azure Storage?",
+    "options": {
+      "A": "AzCopy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "AzCopy is a command-line utility for Azure Storage data transfers."
+  },
+  {
+    "id": 29,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the primary purpose of an Azure virtual network?",
+    "options": {
+      "A": "Provide private networking for Azure resources",
+      "B": "Store blobs",
+      "C": "Manage identities",
+      "D": "Calculate prices"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A virtual network provides private network connectivity for Azure resources."
+  },
+  {
+    "id": 30,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 31,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 32,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a subnet?",
+    "options": {
+      "A": "A logical subdivision of a virtual network",
+      "B": "A billing account",
+      "C": "A storage tier",
+      "D": "A region pair"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A subnet divides an Azure virtual network into logical network segments."
+  },
+  {
+    "id": 33,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which Azure service provides DNS hosting?",
+    "options": {
+      "A": "Azure DNS",
+      "B": "Azure Policy",
+      "C": "Azure Monitor",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure DNS provides DNS hosting and name-resolution capabilities."
+  },
+  {
+    "id": 34,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which cloud benefit describes the ability to increase or decrease resources as demand changes?",
+    "options": {
+      "A": "Scalability",
+      "B": "Governance",
+      "C": "Tagging",
+      "D": "Compliance"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Scalability is the ability to adjust resources to changing demand."
+  },
+  {
+    "id": 35,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which expenditure model is commonly associated with ongoing cloud service usage?",
+    "options": {
+      "A": "CapEx",
+      "B": "OpEx",
+      "C": "Depreciation only",
+      "D": "Asset disposal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Operating expenditure is ongoing spending for services and usage."
+  },
+  {
+    "id": 36,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. In this scenario, which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 37,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service creates an encrypted connection between an on-premises network and Azure over the public internet?",
+    "options": {
+      "A": "VPN Gateway",
+      "B": "ExpressRoute",
+      "C": "Azure DNS",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VPN Gateway can create encrypted site-to-site VPN connections over the internet."
+  },
+  {
+    "id": 38,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 39,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service provides recommendations for improving Azure resources?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Policy",
+      "C": "Azure DNS",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Advisor provides recommendations for Azure resources."
+  },
+  {
+    "id": 40,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which redundancy option replicates data to a secondary geographic region?",
+    "options": {
+      "A": "GRS",
+      "B": "LRS",
+      "C": "ZRS",
+      "D": "Premium SSD"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Geo-redundant storage replicates data to a secondary region."
+  },
+  {
+    "id": 41,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 42,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does VNet peering provide?",
+    "options": {
+      "A": "Private connectivity between virtual networks",
+      "B": "Public DNS hosting only",
+      "C": "File synchronization",
+      "D": "Cost analysis"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VNet peering connects virtual networks over Azure's private backbone."
+  },
+  {
+    "id": 43,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 44,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 45,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 46,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 47,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 3,
+    "question": "A cloud administrator is reviewing an Azure design. Which are characteristics of consumption-based cloud computing?",
+    "options": {
+      "A": "Pay according to usage",
+      "B": "Provision resources on demand",
+      "C": "Purchase all hardware up front",
+      "D": "Costs can vary with usage",
+      "E": "Every service requires a perpetual license"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Consumption-based services generally support on-demand provisioning and usage-based spending."
+  },
+  {
+    "id": 48,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 49,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service collects and analyzes telemetry from Azure resources and applications?",
+    "options": {
+      "A": "Azure Monitor",
+      "B": "Azure DNS",
+      "C": "Azure Data Box",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Monitor collects and analyzes monitoring data."
+  },
+  {
+    "id": 50,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which feature distributes VM instances across fault and update domains?",
+    "options": {
+      "A": "Availability sets",
+      "B": "Tags",
+      "C": "Storage tiers",
+      "D": "Policy initiatives"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability sets distribute VMs across fault and update domains."
+  },
+  {
+    "id": 51,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 52,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a public endpoint?",
+    "options": {
+      "A": "An endpoint reachable through a public network path",
+      "B": "A resource-group tag",
+      "C": "A private subnet only",
+      "D": "A management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A public endpoint is accessible through a public network path."
+  },
+  {
+    "id": 53,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 54,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 55,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 56,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service model provides a managed platform for deploying applications without managing the underlying operating system?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "PaaS abstracts much of the underlying infrastructure and operating-system management."
+  },
+  {
+    "id": 57,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which statement best describes the shared responsibility model?",
+    "options": {
+      "A": "The provider manages everything",
+      "B": "The customer manages everything",
+      "C": "Responsibilities are divided based on the service",
+      "D": "Only the network provider is responsible"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Cloud security and management responsibilities are divided between provider and customer depending on the service."
+  },
+  {
+    "id": 58,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service is designed for asynchronous messaging between application components?",
+    "options": {
+      "A": "Queue Storage",
+      "B": "Blob Storage",
+      "C": "Azure Files",
+      "D": "Managed Disks"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Queue Storage provides queue-based messaging."
+  },
+  {
+    "id": 59,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service provides managed hosting for web applications?",
+    "options": {
+      "A": "Azure App Service",
+      "B": "Azure VM",
+      "C": "Physical server",
+      "D": "Local hypervisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure App Service is a managed application-hosting platform."
+  },
+  {
+    "id": 60,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which blob access tier is designed for long-term archival with higher retrieval latency?",
+    "options": {
+      "A": "Archive",
+      "B": "Hot",
+      "C": "Cool",
+      "D": "Premium"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Archive is optimized for long-term retention and infrequent retrieval."
+  },
+  {
+    "id": 61,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 62,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which statement best describes the shared responsibility model?",
+    "options": {
+      "A": "The provider manages everything",
+      "B": "The customer manages everything",
+      "C": "Responsibilities are divided based on the service",
+      "D": "Only the network provider is responsible"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Cloud security and management responsibilities are divided between provider and customer depending on the service."
+  },
+  {
+    "id": 63,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service provides information about incidents and planned maintenance that may affect Azure resources?",
+    "options": {
+      "A": "Azure Service Health",
+      "B": "Azure Monitor",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Service Health provides personalized information about service incidents, maintenance, and advisories."
+  },
+  {
+    "id": 64,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 65,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 66,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service model normally gives the customer the least infrastructure management responsibility?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides the complete application and therefore abstracts the most infrastructure management."
+  },
+  {
+    "id": 67,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which blob access tier is intended for frequently accessed data?",
+    "options": {
+      "A": "Hot",
+      "B": "Cool",
+      "C": "Archive",
+      "D": "Offline"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Hot tier is optimized for frequently accessed data."
+  },
+  {
+    "id": 68,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 69,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an availability zone?",
+    "options": {
+      "A": "A physically separate location within an Azure region",
+      "B": "A subscription",
+      "C": "A resource group",
+      "D": "A billing account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability zones are physically separate datacenter locations within an Azure region."
+  },
+  {
+    "id": 70,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 71,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the primary purpose of Azure region pairs?",
+    "options": {
+      "A": "Support geographic resilience and recovery planning",
+      "B": "Create resource groups",
+      "C": "Store passwords",
+      "D": "Create subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Region pairs provide a geographic relationship used for resilience and recovery planning."
+  },
+  {
+    "id": 72,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 73,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which expenditure model is commonly associated with ongoing cloud service usage?",
+    "options": {
+      "A": "CapEx",
+      "B": "OpEx",
+      "C": "Depreciation only",
+      "D": "Asset disposal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Operating expenditure is ongoing spending for services and usage."
+  },
+  {
+    "id": 74,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What can Azure Monitor alerts do?",
+    "options": {
+      "A": "Notify or trigger actions when conditions are met",
+      "B": "Create subscriptions",
+      "C": "Replace RBAC",
+      "D": "Move data between regions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Alerts can notify users or trigger actions based on specified conditions."
+  },
+  {
+    "id": 75,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a private endpoint used for?",
+    "options": {
+      "A": "Private access to a supported Azure service through a private IP",
+      "B": "Public internet access",
+      "C": "Cost calculation",
+      "D": "VM autoscaling"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A private endpoint maps a supported service to a private IP in a virtual network."
+  },
+  {
+    "id": 76,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which Azure service provides DNS hosting?",
+    "options": {
+      "A": "Azure DNS",
+      "B": "Azure Policy",
+      "C": "Azure Monitor",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure DNS provides DNS hosting and name-resolution capabilities."
+  },
+  {
+    "id": 77,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Azure Storage service provides a NoSQL key-value data model?",
+    "options": {
+      "A": "Table Storage",
+      "B": "Azure Files",
+      "C": "Blob Storage",
+      "D": "Queue Storage"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Table Storage provides a NoSQL key-value model."
+  },
+  {
+    "id": 78,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 79,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service is designed to monitor application performance and application telemetry?",
+    "options": {
+      "A": "Application Insights",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Data Box"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Application Insights provides application performance monitoring and telemetry."
+  },
+  {
+    "id": 80,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service is designed to monitor application performance and application telemetry?",
+    "options": {
+      "A": "Application Insights",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Data Box"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Application Insights provides application performance monitoring and telemetry."
+  },
+  {
+    "id": 81,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In an IaaS virtual machine, who is generally responsible for the guest operating system?",
+    "options": {
+      "A": "Cloud provider",
+      "B": "Customer",
+      "C": "ISP",
+      "D": "Hardware manufacturer"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "With IaaS, the customer generally manages the guest OS."
+  },
+  {
+    "id": 82,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 83,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 84,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which expenditure model is associated with purchasing physical servers up front?",
+    "options": {
+      "A": "OpEx",
+      "B": "CapEx",
+      "C": "Consumption",
+      "D": "Subscription"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Capital expenditure is spending on physical assets purchased up front."
+  },
+  {
+    "id": 85,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service creates an encrypted connection between an on-premises network and Azure over the public internet?",
+    "options": {
+      "A": "VPN Gateway",
+      "B": "ExpressRoute",
+      "C": "Azure DNS",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VPN Gateway can create encrypted site-to-site VPN connections over the internet."
+  },
+  {
+    "id": 86,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 87,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure subscription primarily used for?",
+    "options": {
+      "A": "A billing and access boundary",
+      "B": "A physical datacenter",
+      "C": "A subnet",
+      "D": "A VM disk"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Subscriptions provide billing and access boundaries for Azure resources."
+  },
+  {
+    "id": 88,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure region?",
+    "options": {
+      "A": "A geographic area containing one or more Azure datacenters",
+      "B": "A billing tag",
+      "C": "A virtual machine",
+      "D": "A user account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "An Azure region is a geographic area containing Azure datacenters."
+  },
+  {
+    "id": 89,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure service provides on-demand Windows or Linux virtual machines?",
+    "options": {
+      "A": "Azure Virtual Machines",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Machines provides configurable Windows and Linux VMs."
+  },
+  {
+    "id": 90,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which benefit lets administrators manage cloud resources through centralized tools?",
+    "options": {
+      "A": "Manageability",
+      "B": "Physical isolation",
+      "C": "Capital ownership",
+      "D": "Manual provisioning"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud platforms provide centralized management capabilities."
+  },
+  {
+    "id": 91,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which Azure hierarchy level can contain multiple subscriptions?",
+    "options": {
+      "A": "Management group",
+      "B": "Resource group",
+      "C": "Subnet",
+      "D": "Availability zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups organize multiple Azure subscriptions."
+  },
+  {
+    "id": 92,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which benefit lets administrators manage cloud resources through centralized tools?",
+    "options": {
+      "A": "Manageability",
+      "B": "Physical isolation",
+      "C": "Capital ownership",
+      "D": "Manual provisioning"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud platforms provide centralized management capabilities."
+  },
+  {
+    "id": 93,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which compute option packages an application and its dependencies in a lightweight isolated environment?",
+    "options": {
+      "A": "Container",
+      "B": "Availability set",
+      "C": "Resource group",
+      "D": "Management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Containers package applications and dependencies and provide lightweight isolation."
+  },
+  {
+    "id": 94,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "During an Azure design review, In this scenario, which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 95,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which expenditure model is associated with purchasing physical servers up front?",
+    "options": {
+      "A": "OpEx",
+      "B": "CapEx",
+      "C": "Consumption",
+      "D": "Subscription"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Capital expenditure is spending on physical assets purchased up front."
+  },
+  {
+    "id": 96,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 97,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "During an Azure design review, Which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 98,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which benefit lets administrators manage cloud resources through centralized tools?",
+    "options": {
+      "A": "Manageability",
+      "B": "Physical isolation",
+      "C": "Capital ownership",
+      "D": "Manual provisioning"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud platforms provide centralized management capabilities."
+  },
+  {
+    "id": 99,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an availability zone?",
+    "options": {
+      "A": "A physically separate location within an Azure region",
+      "B": "A subscription",
+      "C": "A resource group",
+      "D": "A billing account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability zones are physically separate datacenter locations within an Azure region."
+  },
+  {
+    "id": 100,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which Azure Storage service provides a NoSQL key-value data model?",
+    "options": {
+      "A": "Table Storage",
+      "B": "Azure Files",
+      "C": "Blob Storage",
+      "D": "Queue Storage"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Table Storage provides a NoSQL key-value model."
+  },
+  {
+    "id": 101,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service collects and analyzes telemetry from Azure resources and applications?",
+    "options": {
+      "A": "Azure Monitor",
+      "B": "Azure DNS",
+      "C": "Azure Data Box",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Monitor collects and analyzes monitoring data."
+  },
+  {
+    "id": 102,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 103,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 104,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the primary purpose of an Azure virtual network?",
+    "options": {
+      "A": "Provide private networking for Azure resources",
+      "B": "Store blobs",
+      "C": "Manage identities",
+      "D": "Calculate prices"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A virtual network provides private network connectivity for Azure resources."
+  },
+  {
+    "id": 105,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which cloud benefit describes the ability to increase or decrease resources as demand changes?",
+    "options": {
+      "A": "Scalability",
+      "B": "Governance",
+      "C": "Tagging",
+      "D": "Compliance"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Scalability is the ability to adjust resources to changing demand."
+  },
+  {
+    "id": 106,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 107,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 108,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In an IaaS virtual machine, who is generally responsible for the guest operating system?",
+    "options": {
+      "A": "Cloud provider",
+      "B": "Customer",
+      "C": "ISP",
+      "D": "Hardware manufacturer"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "With IaaS, the customer generally manages the guest OS."
+  },
+  {
+    "id": 109,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 110,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service model provides a managed platform for deploying applications without managing the underlying operating system?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "PaaS abstracts much of the underlying infrastructure and operating-system management."
+  },
+  {
+    "id": 111,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure Storage service provides a NoSQL key-value data model?",
+    "options": {
+      "A": "Table Storage",
+      "B": "Azure Files",
+      "C": "Blob Storage",
+      "D": "Queue Storage"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Table Storage provides a NoSQL key-value model."
+  },
+  {
+    "id": 112,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which Azure Storage service provides a NoSQL key-value data model?",
+    "options": {
+      "A": "Table Storage",
+      "B": "Azure Files",
+      "C": "Blob Storage",
+      "D": "Queue Storage"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Table Storage provides a NoSQL key-value model."
+  },
+  {
+    "id": 113,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What can Azure Monitor alerts do?",
+    "options": {
+      "A": "Notify or trigger actions when conditions are met",
+      "B": "Create subscriptions",
+      "C": "Replace RBAC",
+      "D": "Move data between regions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Alerts can notify users or trigger actions based on specified conditions."
+  },
+  {
+    "id": 114,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service model delivers a complete application to users?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "VPN"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides a complete software application as a service."
+  },
+  {
+    "id": 115,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During an Azure design review, Which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 116,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 117,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service provides a private dedicated connection from an organization to Azure?",
+    "options": {
+      "A": "ExpressRoute",
+      "B": "VPN Gateway",
+      "C": "Azure DNS",
+      "D": "Public endpoint"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ExpressRoute provides private connectivity to Azure."
+  },
+  {
+    "id": 118,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 119,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 4,
+    "question": "A cloud administrator is reviewing an Azure design. Which are benefits commonly associated with cloud computing?",
+    "options": {
+      "A": "Scalability",
+      "B": "High availability",
+      "C": "Manageability",
+      "D": "Mandatory physical ownership",
+      "E": "Reduced datacenter hardware management"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Cloud computing can improve scalability, availability, manageability, and reduce physical infrastructure management."
+  },
+  {
+    "id": 120,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which blob access tier is intended for infrequently accessed data while keeping it readily available?",
+    "options": {
+      "A": "Cool",
+      "B": "Hot",
+      "C": "Archive",
+      "D": "Premium CPU"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Cool tier is for infrequently accessed data that remains readily available."
+  },
+  {
+    "id": 121,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Azure Monitor capability is designed for querying and analyzing log data?",
+    "options": {
+      "A": "Log Analytics",
+      "B": "Azure Files",
+      "C": "Azure Policy",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Log Analytics provides log storage and query capabilities."
+  },
+  {
+    "id": 122,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which blob access tier is intended for frequently accessed data?",
+    "options": {
+      "A": "Hot",
+      "B": "Cool",
+      "C": "Archive",
+      "D": "Offline"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Hot tier is optimized for frequently accessed data."
+  },
+  {
+    "id": 123,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service provides information about incidents and planned maintenance that may affect Azure resources?",
+    "options": {
+      "A": "Azure Service Health",
+      "B": "Azure Monitor",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Service Health provides personalized information about service incidents, maintenance, and advisories."
+  },
+  {
+    "id": 124,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which redundancy option keeps multiple copies within a single region?",
+    "options": {
+      "A": "LRS",
+      "B": "GRS",
+      "C": "RA-GRS",
+      "D": "ZRS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Locally redundant storage keeps multiple copies within a local region/datacenter boundary."
+  },
+  {
+    "id": 125,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. Which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 126,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service is designed for asynchronous messaging between application components?",
+    "options": {
+      "A": "Queue Storage",
+      "B": "Blob Storage",
+      "C": "Azure Files",
+      "D": "Managed Disks"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Queue Storage provides queue-based messaging."
+  },
+  {
+    "id": 127,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 128,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the primary purpose of an Azure virtual network?",
+    "options": {
+      "A": "Provide private networking for Azure resources",
+      "B": "Store blobs",
+      "C": "Manage identities",
+      "D": "Calculate prices"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A virtual network provides private network connectivity for Azure resources."
+  },
+  {
+    "id": 129,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 130,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In an IaaS virtual machine, who is generally responsible for the guest operating system?",
+    "options": {
+      "A": "Cloud provider",
+      "B": "Customer",
+      "C": "ISP",
+      "D": "Hardware manufacturer"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "With IaaS, the customer generally manages the guest OS."
+  },
+  {
+    "id": 131,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a public endpoint?",
+    "options": {
+      "A": "An endpoint reachable through a public network path",
+      "B": "A resource-group tag",
+      "C": "A private subnet only",
+      "D": "A management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A public endpoint is accessible through a public network path."
+  },
+  {
+    "id": 132,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure component is a logical container for related resources?",
+    "options": {
+      "A": "Resource group",
+      "B": "Availability zone",
+      "C": "Region pair",
+      "D": "Storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource groups logically contain related Azure resources."
+  },
+  {
+    "id": 133,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service provides managed file shares?",
+    "options": {
+      "A": "Azure Files",
+      "B": "Blob Storage",
+      "C": "Queue Storage",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Files provides managed cloud file shares."
+  },
+  {
+    "id": 134,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During an Azure design review, What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 135,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "During an Azure design review, In this scenario, which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 136,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 137,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which Azure component is a logical container for related resources?",
+    "options": {
+      "A": "Resource group",
+      "B": "Availability zone",
+      "C": "Region pair",
+      "D": "Storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource groups logically contain related Azure resources."
+  },
+  {
+    "id": 138,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which blob access tier is intended for infrequently accessed data while keeping it readily available?",
+    "options": {
+      "A": "Cool",
+      "B": "Hot",
+      "C": "Archive",
+      "D": "Premium CPU"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Cool tier is for infrequently accessed data that remains readily available."
+  },
+  {
+    "id": 139,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 140,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 141,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 142,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service model provides a managed platform for deploying applications without managing the underlying operating system?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "PaaS abstracts much of the underlying infrastructure and operating-system management."
+  },
+  {
+    "id": 143,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 144,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 145,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which Azure service provides on-demand Windows or Linux virtual machines?",
+    "options": {
+      "A": "Azure Virtual Machines",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Machines provides configurable Windows and Linux VMs."
+  },
+  {
+    "id": 146,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 147,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which redundancy option replicates storage synchronously across availability zones in a region?",
+    "options": {
+      "A": "ZRS",
+      "B": "LRS",
+      "C": "GRS",
+      "D": "GZRS only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Zone-redundant storage replicates data synchronously across availability zones."
+  },
+  {
+    "id": 148,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. Which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 149,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. In this scenario, which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 150,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement best describes the shared responsibility model?",
+    "options": {
+      "A": "The provider manages everything",
+      "B": "The customer manages everything",
+      "C": "Responsibilities are divided based on the service",
+      "D": "Only the network provider is responsible"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Cloud security and management responsibilities are divided between provider and customer depending on the service."
+  },
+  {
+    "id": 151,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 152,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service provides a private dedicated connection from an organization to Azure?",
+    "options": {
+      "A": "ExpressRoute",
+      "B": "VPN Gateway",
+      "C": "Azure DNS",
+      "D": "Public endpoint"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ExpressRoute provides private connectivity to Azure."
+  },
+  {
+    "id": 153,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 154,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 155,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which blob access tier is designed for long-term archival with higher retrieval latency?",
+    "options": {
+      "A": "Archive",
+      "B": "Hot",
+      "C": "Cool",
+      "D": "Premium"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Archive is optimized for long-term retention and infrequent retrieval."
+  },
+  {
+    "id": 156,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which Azure architecture component is used to organize subscriptions for governance?",
+    "options": {
+      "A": "Management groups",
+      "B": "Availability zones",
+      "C": "Storage accounts",
+      "D": "Subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups provide a governance scope above subscriptions."
+  },
+  {
+    "id": 157,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 158,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the primary purpose of Azure region pairs?",
+    "options": {
+      "A": "Support geographic resilience and recovery planning",
+      "B": "Create resource groups",
+      "C": "Store passwords",
+      "D": "Create subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Region pairs provide a geographic relationship used for resilience and recovery planning."
+  },
+  {
+    "id": 159,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service runs event-driven code without requiring server management?",
+    "options": {
+      "A": "Azure Functions",
+      "B": "Azure Virtual Machines",
+      "C": "Azure Files",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Functions is a serverless, event-driven compute service."
+  },
+  {
+    "id": 160,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 161,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. Which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 162,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 163,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which Azure Monitor capability is designed for querying and analyzing log data?",
+    "options": {
+      "A": "Log Analytics",
+      "B": "Azure Files",
+      "C": "Azure Policy",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Log Analytics provides log storage and query capabilities."
+  },
+  {
+    "id": 164,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which Azure component is a logical container for related resources?",
+    "options": {
+      "A": "Resource group",
+      "B": "Availability zone",
+      "C": "Region pair",
+      "D": "Storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource groups logically contain related Azure resources."
+  },
+  {
+    "id": 165,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 166,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a public endpoint?",
+    "options": {
+      "A": "An endpoint reachable through a public network path",
+      "B": "A resource-group tag",
+      "C": "A private subnet only",
+      "D": "A management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A public endpoint is accessible through a public network path."
+  },
+  {
+    "id": 167,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 168,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a private endpoint used for?",
+    "options": {
+      "A": "Private access to a supported Azure service through a private IP",
+      "B": "Public internet access",
+      "C": "Cost calculation",
+      "D": "VM autoscaling"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A private endpoint maps a supported service to a private IP in a virtual network."
+  },
+  {
+    "id": 169,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does VNet peering provide?",
+    "options": {
+      "A": "Private connectivity between virtual networks",
+      "B": "Public DNS hosting only",
+      "C": "File synchronization",
+      "D": "Cost analysis"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VNet peering connects virtual networks over Azure's private backbone."
+  },
+  {
+    "id": 170,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service provides a private dedicated connection from an organization to Azure?",
+    "options": {
+      "A": "ExpressRoute",
+      "B": "VPN Gateway",
+      "C": "Azure DNS",
+      "D": "Public endpoint"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ExpressRoute provides private connectivity to Azure."
+  },
+  {
+    "id": 171,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. Which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 172,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which cloud benefit is focused on keeping a service operational despite component failures?",
+    "options": {
+      "A": "High availability",
+      "B": "Tagging",
+      "C": "Cost management",
+      "D": "Identity federation"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "High availability is designed to keep services available despite failures."
+  },
+  {
+    "id": 173,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service provides a private dedicated connection from an organization to Azure?",
+    "options": {
+      "A": "ExpressRoute",
+      "B": "VPN Gateway",
+      "C": "Azure DNS",
+      "D": "Public endpoint"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ExpressRoute provides private connectivity to Azure."
+  },
+  {
+    "id": 174,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Azure architecture component is used to organize subscriptions for governance?",
+    "options": {
+      "A": "Management groups",
+      "B": "Availability zones",
+      "C": "Storage accounts",
+      "D": "Subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups provide a governance scope above subscriptions."
+  },
+  {
+    "id": 175,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service collects and analyzes telemetry from Azure resources and applications?",
+    "options": {
+      "A": "Azure Monitor",
+      "B": "Azure DNS",
+      "C": "Azure Data Box",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Monitor collects and analyzes monitoring data."
+  },
+  {
+    "id": 176,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which workload is a good candidate for serverless computing?",
+    "options": {
+      "A": "Event-driven code that runs on demand",
+      "B": "A physical server requiring custom hardware",
+      "C": "A legacy application requiring OS kernel changes",
+      "D": "A dedicated datacenter"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Serverless is well suited to event-driven workloads where server management is abstracted."
+  },
+  {
+    "id": 177,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure Monitor capability is designed for querying and analyzing log data?",
+    "options": {
+      "A": "Log Analytics",
+      "B": "Azure Files",
+      "C": "Azure Policy",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Log Analytics provides log storage and query capabilities."
+  },
+  {
+    "id": 178,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which command-line utility can copy data to and from Azure Storage?",
+    "options": {
+      "A": "AzCopy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "AzCopy is a command-line utility for Azure Storage data transfers."
+  },
+  {
+    "id": 179,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which statement best describes the shared responsibility model?",
+    "options": {
+      "A": "The provider manages everything",
+      "B": "The customer manages everything",
+      "C": "Responsibilities are divided based on the service",
+      "D": "Only the network provider is responsible"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Cloud security and management responsibilities are divided between provider and customer depending on the service."
+  },
+  {
+    "id": 180,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 181,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does VNet peering provide?",
+    "options": {
+      "A": "Private connectivity between virtual networks",
+      "B": "Public DNS hosting only",
+      "C": "File synchronization",
+      "D": "Cost analysis"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VNet peering connects virtual networks over Azure's private backbone."
+  },
+  {
+    "id": 182,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 183,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 3,
+    "question": "Which are characteristics of consumption-based cloud computing?",
+    "options": {
+      "A": "Pay according to usage",
+      "B": "Provision resources on demand",
+      "C": "Purchase all hardware up front",
+      "D": "Costs can vary with usage",
+      "E": "Every service requires a perpetual license"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Consumption-based services generally support on-demand provisioning and usage-based spending."
+  },
+  {
+    "id": 184,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure subscription primarily used for?",
+    "options": {
+      "A": "A billing and access boundary",
+      "B": "A physical datacenter",
+      "C": "A subnet",
+      "D": "A VM disk"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Subscriptions provide billing and access boundaries for Azure resources."
+  },
+  {
+    "id": 185,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During an Azure design review, What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 186,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure region?",
+    "options": {
+      "A": "A geographic area containing one or more Azure datacenters",
+      "B": "A billing tag",
+      "C": "A virtual machine",
+      "D": "A user account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "An Azure region is a geographic area containing Azure datacenters."
+  },
+  {
+    "id": 187,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 188,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the primary purpose of Azure region pairs?",
+    "options": {
+      "A": "Support geographic resilience and recovery planning",
+      "B": "Create resource groups",
+      "C": "Store passwords",
+      "D": "Create subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Region pairs provide a geographic relationship used for resilience and recovery planning."
+  },
+  {
+    "id": 189,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does VNet peering provide?",
+    "options": {
+      "A": "Private connectivity between virtual networks",
+      "B": "Public DNS hosting only",
+      "C": "File synchronization",
+      "D": "Cost analysis"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VNet peering connects virtual networks over Azure's private backbone."
+  },
+  {
+    "id": 190,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 191,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which expenditure model is associated with purchasing physical servers up front?",
+    "options": {
+      "A": "OpEx",
+      "B": "CapEx",
+      "C": "Consumption",
+      "D": "Subscription"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Capital expenditure is spending on physical assets purchased up front."
+  },
+  {
+    "id": 192,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What can Azure Monitor alerts do?",
+    "options": {
+      "A": "Notify or trigger actions when conditions are met",
+      "B": "Create subscriptions",
+      "C": "Replace RBAC",
+      "D": "Move data between regions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Alerts can notify users or trigger actions based on specified conditions."
+  },
+  {
+    "id": 193,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 194,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 195,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 196,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 197,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 198,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 199,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 200,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 3,
+    "question": "A cloud administrator is reviewing an Azure design. Which are valid cloud service models?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "LRS",
+      "E": "RBAC"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "IaaS, PaaS, and SaaS are the standard cloud service models."
+  },
+  {
+    "id": 201,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which redundancy option replicates storage synchronously across availability zones in a region?",
+    "options": {
+      "A": "ZRS",
+      "B": "LRS",
+      "C": "GRS",
+      "D": "GZRS only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Zone-redundant storage replicates data synchronously across availability zones."
+  },
+  {
+    "id": 202,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which command-line utility can copy data to and from Azure Storage?",
+    "options": {
+      "A": "AzCopy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "AzCopy is a command-line utility for Azure Storage data transfers."
+  },
+  {
+    "id": 203,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a public endpoint?",
+    "options": {
+      "A": "An endpoint reachable through a public network path",
+      "B": "A resource-group tag",
+      "C": "A private subnet only",
+      "D": "A management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A public endpoint is accessible through a public network path."
+  },
+  {
+    "id": 204,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 205,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which redundancy option replicates storage synchronously across availability zones in a region?",
+    "options": {
+      "A": "ZRS",
+      "B": "LRS",
+      "C": "GRS",
+      "D": "GZRS only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Zone-redundant storage replicates data synchronously across availability zones."
+  },
+  {
+    "id": 206,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which benefit lets administrators manage cloud resources through centralized tools?",
+    "options": {
+      "A": "Manageability",
+      "B": "Physical isolation",
+      "C": "Capital ownership",
+      "D": "Manual provisioning"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud platforms provide centralized management capabilities."
+  },
+  {
+    "id": 207,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which feature distributes VM instances across fault and update domains?",
+    "options": {
+      "A": "Availability sets",
+      "B": "Tags",
+      "C": "Storage tiers",
+      "D": "Policy initiatives"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability sets distribute VMs across fault and update domains."
+  },
+  {
+    "id": 208,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service model normally gives the customer the least infrastructure management responsibility?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides the complete application and therefore abstracts the most infrastructure management."
+  },
+  {
+    "id": 209,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the primary purpose of an Azure virtual network?",
+    "options": {
+      "A": "Provide private networking for Azure resources",
+      "B": "Store blobs",
+      "C": "Manage identities",
+      "D": "Calculate prices"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A virtual network provides private network connectivity for Azure resources."
+  },
+  {
+    "id": 210,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 211,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 4,
+    "question": "Which are benefits commonly associated with cloud computing?",
+    "options": {
+      "A": "Scalability",
+      "B": "High availability",
+      "C": "Manageability",
+      "D": "Mandatory physical ownership",
+      "E": "Reduced datacenter hardware management"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "Cloud computing can improve scalability, availability, manageability, and reduce physical infrastructure management."
+  },
+  {
+    "id": 212,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which compute option packages an application and its dependencies in a lightweight isolated environment?",
+    "options": {
+      "A": "Container",
+      "B": "Availability set",
+      "C": "Resource group",
+      "D": "Management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Containers package applications and dependencies and provide lightweight isolation."
+  },
+  {
+    "id": 213,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service model delivers a complete application to users?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "VPN"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides a complete software application as a service."
+  },
+  {
+    "id": 214,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure subscription primarily used for?",
+    "options": {
+      "A": "A billing and access boundary",
+      "B": "A physical datacenter",
+      "C": "A subnet",
+      "D": "A VM disk"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Subscriptions provide billing and access boundaries for Azure resources."
+  },
+  {
+    "id": 215,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 216,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 217,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 218,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 219,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 220,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 221,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service provides virtualized desktops and applications to users?",
+    "options": {
+      "A": "Azure Virtual Desktop",
+      "B": "Azure Data Box",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Desktop delivers desktops and applications from Azure."
+  },
+  {
+    "id": 222,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which Azure Storage service is designed for object storage?",
+    "options": {
+      "A": "Blob Storage",
+      "B": "Queue Storage",
+      "C": "Table Storage",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Blob Storage is Azure's object storage service."
+  },
+  {
+    "id": 223,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which compute option packages an application and its dependencies in a lightweight isolated environment?",
+    "options": {
+      "A": "Container",
+      "B": "Availability set",
+      "C": "Resource group",
+      "D": "Management group"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Containers package applications and dependencies and provide lightweight isolation."
+  },
+  {
+    "id": 224,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 225,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure Storage service is designed for object storage?",
+    "options": {
+      "A": "Blob Storage",
+      "B": "Queue Storage",
+      "C": "Table Storage",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Blob Storage is Azure's object storage service."
+  },
+  {
+    "id": 226,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 227,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 228,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service manages a group of identical VMs and supports automatic scaling?",
+    "options": {
+      "A": "Virtual Machine Scale Sets",
+      "B": "Azure DNS",
+      "C": "Azure Files",
+      "D": "Microsoft Purview"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VM Scale Sets manage groups of VMs and support scaling."
+  },
+  {
+    "id": 229,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an availability zone?",
+    "options": {
+      "A": "A physically separate location within an Azure region",
+      "B": "A subscription",
+      "C": "A resource group",
+      "D": "A billing account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability zones are physically separate datacenter locations within an Azure region."
+  },
+  {
+    "id": 230,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 231,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which hierarchy is correct?",
+    "options": {
+      "A": "Management group > subscription > resource group > resource",
+      "B": "Resource group > subscription > management group > resource",
+      "C": "Subscription > resource > management group > resource group",
+      "D": "Region > resource group > subscription > resource"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure management hierarchy is management groups, subscriptions, resource groups, and resources."
+  },
+  {
+    "id": 232,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service model normally gives the customer the least infrastructure management responsibility?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides the complete application and therefore abstracts the most infrastructure management."
+  },
+  {
+    "id": 233,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. In this scenario, which cloud model combines on-premises or private infrastructure with public cloud resources?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Public cloud",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Hybrid cloud combines private/on-premises resources with public cloud resources."
+  },
+  {
+    "id": 234,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service provides information about incidents and planned maintenance that may affect Azure resources?",
+    "options": {
+      "A": "Azure Service Health",
+      "B": "Azure Monitor",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Service Health provides personalized information about service incidents, maintenance, and advisories."
+  },
+  {
+    "id": 235,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 236,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 237,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service runs event-driven code without requiring server management?",
+    "options": {
+      "A": "Azure Functions",
+      "B": "Azure Virtual Machines",
+      "C": "Azure Files",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Functions is a serverless, event-driven compute service."
+  },
+  {
+    "id": 238,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which Azure service provides on-demand Windows or Linux virtual machines?",
+    "options": {
+      "A": "Azure Virtual Machines",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Machines provides configurable Windows and Linux VMs."
+  },
+  {
+    "id": 239,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 240,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which expenditure model is commonly associated with ongoing cloud service usage?",
+    "options": {
+      "A": "CapEx",
+      "B": "OpEx",
+      "C": "Depreciation only",
+      "D": "Asset disposal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Operating expenditure is ongoing spending for services and usage."
+  },
+  {
+    "id": 241,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 242,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which blob access tier is designed for long-term archival with higher retrieval latency?",
+    "options": {
+      "A": "Archive",
+      "B": "Hot",
+      "C": "Cool",
+      "D": "Premium"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Archive is optimized for long-term retention and infrequent retrieval."
+  },
+  {
+    "id": 243,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which feature distributes VM instances across fault and update domains?",
+    "options": {
+      "A": "Availability sets",
+      "B": "Tags",
+      "C": "Storage tiers",
+      "D": "Policy initiatives"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability sets distribute VMs across fault and update domains."
+  },
+  {
+    "id": 244,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which cloud benefit describes the ability to increase or decrease resources as demand changes?",
+    "options": {
+      "A": "Scalability",
+      "B": "Governance",
+      "C": "Tagging",
+      "D": "Compliance"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Scalability is the ability to adjust resources to changing demand."
+  },
+  {
+    "id": 245,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which blob access tier is designed for long-term archival with higher retrieval latency?",
+    "options": {
+      "A": "Archive",
+      "B": "Hot",
+      "C": "Cool",
+      "D": "Premium"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Archive is optimized for long-term retention and infrequent retrieval."
+  },
+  {
+    "id": 246,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service model delivers a complete application to users?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "VPN"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides a complete software application as a service."
+  },
+  {
+    "id": 247,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service provides recommendations for improving Azure resources?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Policy",
+      "C": "Azure DNS",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Advisor provides recommendations for Azure resources."
+  },
+  {
+    "id": 248,
+    "chapter": "Azure networking",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service creates an encrypted connection between an on-premises network and Azure over the public internet?",
+    "options": {
+      "A": "VPN Gateway",
+      "B": "ExpressRoute",
+      "C": "Azure DNS",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VPN Gateway can create encrypted site-to-site VPN connections over the internet."
+  },
+  {
+    "id": 249,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which cloud benefit is focused on keeping a service operational despite component failures?",
+    "options": {
+      "A": "High availability",
+      "B": "Tagging",
+      "C": "Cost management",
+      "D": "Identity federation"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "High availability is designed to keep services available despite failures."
+  },
+  {
+    "id": 250,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 251,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which blob access tier is intended for infrequently accessed data while keeping it readily available?",
+    "options": {
+      "A": "Cool",
+      "B": "Hot",
+      "C": "Archive",
+      "D": "Premium CPU"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Cool tier is for infrequently accessed data that remains readily available."
+  },
+  {
+    "id": 252,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which Azure Storage service is designed for object storage?",
+    "options": {
+      "A": "Blob Storage",
+      "B": "Queue Storage",
+      "C": "Table Storage",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Blob Storage is Azure's object storage service."
+  },
+  {
+    "id": 253,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. In this scenario, which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 254,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 255,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which Azure service provides DNS hosting?",
+    "options": {
+      "A": "Azure DNS",
+      "B": "Azure Policy",
+      "C": "Azure Monitor",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure DNS provides DNS hosting and name-resolution capabilities."
+  },
+  {
+    "id": 256,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What can Azure Monitor alerts do?",
+    "options": {
+      "A": "Notify or trigger actions when conditions are met",
+      "B": "Create subscriptions",
+      "C": "Replace RBAC",
+      "D": "Move data between regions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Alerts can notify users or trigger actions based on specified conditions."
+  },
+  {
+    "id": 257,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which Azure component is a logical container for related resources?",
+    "options": {
+      "A": "Resource group",
+      "B": "Availability zone",
+      "C": "Region pair",
+      "D": "Storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource groups logically contain related Azure resources."
+  },
+  {
+    "id": 258,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 259,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service provides virtualized desktops and applications to users?",
+    "options": {
+      "A": "Azure Virtual Desktop",
+      "B": "Azure Data Box",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Desktop delivers desktops and applications from Azure."
+  },
+  {
+    "id": 260,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 261,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which hierarchy is correct?",
+    "options": {
+      "A": "Management group > subscription > resource group > resource",
+      "B": "Resource group > subscription > management group > resource",
+      "C": "Subscription > resource > management group > resource group",
+      "D": "Region > resource group > subscription > resource"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure management hierarchy is management groups, subscriptions, resource groups, and resources."
+  },
+  {
+    "id": 262,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 263,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the primary purpose of Azure region pairs?",
+    "options": {
+      "A": "Support geographic resilience and recovery planning",
+      "B": "Create resource groups",
+      "C": "Store passwords",
+      "D": "Create subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Region pairs provide a geographic relationship used for resilience and recovery planning."
+  },
+  {
+    "id": 264,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service provides recommendations for improving Azure resources?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Policy",
+      "C": "Azure DNS",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Advisor provides recommendations for Azure resources."
+  },
+  {
+    "id": 265,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure subscription primarily used for?",
+    "options": {
+      "A": "A billing and access boundary",
+      "B": "A physical datacenter",
+      "C": "A subnet",
+      "D": "A VM disk"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Subscriptions provide billing and access boundaries for Azure resources."
+  },
+  {
+    "id": 266,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 267,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. Which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 268,
+    "chapter": "Azure architecture",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Azure region?",
+    "options": {
+      "A": "A geographic area containing one or more Azure datacenters",
+      "B": "A billing tag",
+      "C": "A virtual machine",
+      "D": "A user account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "An Azure region is a geographic area containing Azure datacenters."
+  },
+  {
+    "id": 269,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which redundancy option keeps multiple copies within a single region?",
+    "options": {
+      "A": "LRS",
+      "B": "GRS",
+      "C": "RA-GRS",
+      "D": "ZRS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Locally redundant storage keeps multiple copies within a local region/datacenter boundary."
+  },
+  {
+    "id": 270,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which Azure Monitor capability is designed for querying and analyzing log data?",
+    "options": {
+      "A": "Log Analytics",
+      "B": "Azure Files",
+      "C": "Azure Policy",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Log Analytics provides log storage and query capabilities."
+  },
+  {
+    "id": 271,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which redundancy option replicates data to a secondary geographic region?",
+    "options": {
+      "A": "GRS",
+      "B": "LRS",
+      "C": "ZRS",
+      "D": "Premium SSD"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Geo-redundant storage replicates data to a secondary region."
+  },
+  {
+    "id": 272,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which redundancy option replicates storage synchronously across availability zones in a region?",
+    "options": {
+      "A": "ZRS",
+      "B": "LRS",
+      "C": "GRS",
+      "D": "GZRS only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Zone-redundant storage replicates data synchronously across availability zones."
+  },
+  {
+    "id": 273,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In an IaaS virtual machine, who is generally responsible for the guest operating system?",
+    "options": {
+      "A": "Cloud provider",
+      "B": "Customer",
+      "C": "ISP",
+      "D": "Hardware manufacturer"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "With IaaS, the customer generally manages the guest OS."
+  },
+  {
+    "id": 274,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which feature distributes VM instances across fault and update domains?",
+    "options": {
+      "A": "Availability sets",
+      "B": "Tags",
+      "C": "Storage tiers",
+      "D": "Policy initiatives"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability sets distribute VMs across fault and update domains."
+  },
+  {
+    "id": 275,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A team is preparing an Azure deployment. What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 276,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 277,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 278,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which Azure architecture component is used to organize subscriptions for governance?",
+    "options": {
+      "A": "Management groups",
+      "B": "Availability zones",
+      "C": "Storage accounts",
+      "D": "Subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups provide a governance scope above subscriptions."
+  },
+  {
+    "id": 279,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service is designed for asynchronous messaging between application components?",
+    "options": {
+      "A": "Queue Storage",
+      "B": "Blob Storage",
+      "C": "Azure Files",
+      "D": "Managed Disks"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Queue Storage provides queue-based messaging."
+  },
+  {
+    "id": 280,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure service provides DNS hosting?",
+    "options": {
+      "A": "Azure DNS",
+      "B": "Azure Policy",
+      "C": "Azure Monitor",
+      "D": "Azure Advisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure DNS provides DNS hosting and name-resolution capabilities."
+  },
+  {
+    "id": 281,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. In this scenario, which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 282,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 283,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which expenditure model is commonly associated with ongoing cloud service usage?",
+    "options": {
+      "A": "CapEx",
+      "B": "OpEx",
+      "C": "Depreciation only",
+      "D": "Asset disposal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Operating expenditure is ongoing spending for services and usage."
+  },
+  {
+    "id": 284,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 285,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 286,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which workload is a good candidate for serverless computing?",
+    "options": {
+      "A": "Event-driven code that runs on demand",
+      "B": "A physical server requiring custom hardware",
+      "C": "A legacy application requiring OS kernel changes",
+      "D": "A dedicated datacenter"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Serverless is well suited to event-driven workloads where server management is abstracted."
+  },
+  {
+    "id": 287,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service helps apply organizational rules to Azure resources?",
+    "options": {
+      "A": "Azure Policy",
+      "B": "Azure Advisor",
+      "C": "Azure Monitor",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Policy evaluates and enforces organizational standards."
+  },
+  {
+    "id": 288,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an availability zone?",
+    "options": {
+      "A": "A physically separate location within an Azure region",
+      "B": "A subscription",
+      "C": "A resource group",
+      "D": "A billing account"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Availability zones are physically separate datacenter locations within an Azure region."
+  },
+  {
+    "id": 289,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which workload is a good candidate for serverless computing?",
+    "options": {
+      "A": "Event-driven code that runs on demand",
+      "B": "A physical server requiring custom hardware",
+      "C": "A legacy application requiring OS kernel changes",
+      "D": "A dedicated datacenter"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Serverless is well suited to event-driven workloads where server management is abstracted."
+  },
+  {
+    "id": 290,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 291,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which redundancy option keeps multiple copies within a single region?",
+    "options": {
+      "A": "LRS",
+      "B": "GRS",
+      "C": "RA-GRS",
+      "D": "ZRS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Locally redundant storage keeps multiple copies within a local region/datacenter boundary."
+  },
+  {
+    "id": 292,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a subnet?",
+    "options": {
+      "A": "A logical subdivision of a virtual network",
+      "B": "A billing account",
+      "C": "A storage tier",
+      "D": "A region pair"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A subnet divides an Azure virtual network into logical network segments."
+  },
+  {
+    "id": 293,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which cloud benefit describes the ability to increase or decrease resources as demand changes?",
+    "options": {
+      "A": "Scalability",
+      "B": "Governance",
+      "C": "Tagging",
+      "D": "Compliance"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Scalability is the ability to adjust resources to changing demand."
+  },
+  {
+    "id": 294,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which redundancy option replicates data to a secondary geographic region?",
+    "options": {
+      "A": "GRS",
+      "B": "LRS",
+      "C": "ZRS",
+      "D": "Premium SSD"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Geo-redundant storage replicates data to a secondary region."
+  },
+  {
+    "id": 295,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service provides managed hosting for web applications?",
+    "options": {
+      "A": "Azure App Service",
+      "B": "Azure VM",
+      "C": "Physical server",
+      "D": "Local hypervisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure App Service is a managed application-hosting platform."
+  },
+  {
+    "id": 296,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 297,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which cloud model is dedicated to a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Serverless"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "A private cloud is dedicated to one organization."
+  },
+  {
+    "id": 298,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service provides managed file shares?",
+    "options": {
+      "A": "Azure Files",
+      "B": "Blob Storage",
+      "C": "Queue Storage",
+      "D": "Azure Functions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Files provides managed cloud file shares."
+  },
+  {
+    "id": 299,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 300,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which service provides managed hosting for web applications?",
+    "options": {
+      "A": "Azure App Service",
+      "B": "Azure VM",
+      "C": "Physical server",
+      "D": "Local hypervisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure App Service is a managed application-hosting platform."
+  },
+  {
+    "id": 301,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 302,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which Azure Storage service is designed for object storage?",
+    "options": {
+      "A": "Blob Storage",
+      "B": "Queue Storage",
+      "C": "Table Storage",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Blob Storage is Azure's object storage service."
+  },
+  {
+    "id": 303,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure architecture component is used to organize subscriptions for governance?",
+    "options": {
+      "A": "Management groups",
+      "B": "Availability zones",
+      "C": "Storage accounts",
+      "D": "Subnets"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups provide a governance scope above subscriptions."
+  },
+  {
+    "id": 304,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 305,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which workload is a good candidate for serverless computing?",
+    "options": {
+      "A": "Event-driven code that runs on demand",
+      "B": "A physical server requiring custom hardware",
+      "C": "A legacy application requiring OS kernel changes",
+      "D": "A dedicated datacenter"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Serverless is well suited to event-driven workloads where server management is abstracted."
+  },
+  {
+    "id": 306,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a private endpoint used for?",
+    "options": {
+      "A": "Private access to a supported Azure service through a private IP",
+      "B": "Public internet access",
+      "C": "Cost calculation",
+      "D": "VM autoscaling"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A private endpoint maps a supported service to a private IP in a virtual network."
+  },
+  {
+    "id": 307,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which service provides recommendations for improving Azure resources?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Policy",
+      "C": "Azure DNS",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Advisor provides recommendations for Azure resources."
+  },
+  {
+    "id": 308,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which redundancy option replicates data to a secondary geographic region?",
+    "options": {
+      "A": "GRS",
+      "B": "LRS",
+      "C": "ZRS",
+      "D": "Premium SSD"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Geo-redundant storage replicates data to a secondary region."
+  },
+  {
+    "id": 309,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service model provides a managed platform for deploying applications without managing the underlying operating system?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "PaaS abstracts much of the underlying infrastructure and operating-system management."
+  },
+  {
+    "id": 310,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 311,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 312,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Microsoft service helps discover and govern data across a data estate?",
+    "options": {
+      "A": "Microsoft Purview",
+      "B": "Azure Functions",
+      "C": "Azure VPN Gateway",
+      "D": "Azure Files"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Microsoft Purview provides data governance, discovery, and compliance capabilities."
+  },
+  {
+    "id": 313,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 314,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Azure hierarchy level can contain multiple subscriptions?",
+    "options": {
+      "A": "Management group",
+      "B": "Resource group",
+      "C": "Subnet",
+      "D": "Availability zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups organize multiple Azure subscriptions."
+  },
+  {
+    "id": 315,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which cloud model provides shared computing resources over the internet?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "On-premises only",
+      "D": "Dedicated local cloud"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Public cloud services are provided over the internet to multiple customers."
+  },
+  {
+    "id": 316,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which option best answers: which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 317,
+    "chapter": "Azure storage",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which blob access tier is intended for infrequently accessed data while keeping it readily available?",
+    "options": {
+      "A": "Cool",
+      "B": "Hot",
+      "C": "Archive",
+      "D": "Premium CPU"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Cool tier is for infrequently accessed data that remains readily available."
+  },
+  {
+    "id": 318,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service model normally gives the customer the least infrastructure management responsibility?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "Bare metal"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides the complete application and therefore abstracts the most infrastructure management."
+  },
+  {
+    "id": 319,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 320,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is an ARM template?",
+    "options": {
+      "A": "A declarative JSON definition of Azure infrastructure",
+      "B": "A VM operating system",
+      "C": "A billing invoice",
+      "D": "A DNS zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "ARM templates define Azure resources declaratively for repeatable deployment."
+  },
+  {
+    "id": 321,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. In this scenario, which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  },
+  {
+    "id": 322,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which service runs event-driven code without requiring server management?",
+    "options": {
+      "A": "Azure Functions",
+      "B": "Azure Virtual Machines",
+      "C": "Azure Files",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Functions is a serverless, event-driven compute service."
+  },
+  {
+    "id": 323,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Arc primarily used for?",
+    "options": {
+      "A": "Managing Azure and non-Azure resources across distributed environments",
+      "B": "Replacing subscriptions",
+      "C": "Providing blob storage",
+      "D": "Creating public DNS records"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Arc extends Azure management and governance to resources outside Azure."
+  },
+  {
+    "id": 324,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What does infrastructure as code mean?",
+    "options": {
+      "A": "Defining infrastructure through machine-readable configuration",
+      "B": "Manually configuring every server",
+      "C": "Buying hardware",
+      "D": "Using only the portal"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "IaC defines infrastructure in code/configuration for repeatable deployments."
+  },
+  {
+    "id": 325,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service is designed for asynchronous messaging between application components?",
+    "options": {
+      "A": "Queue Storage",
+      "B": "Blob Storage",
+      "C": "Azure Files",
+      "D": "Managed Disks"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Queue Storage provides queue-based messaging."
+  },
+  {
+    "id": 326,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. What is Azure Cloud Shell?",
+    "options": {
+      "A": "A browser-accessible shell environment for managing Azure",
+      "B": "A storage redundancy option",
+      "C": "A VM type",
+      "D": "A compliance database"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cloud Shell provides an authenticated browser-based command-line environment."
+  },
+  {
+    "id": 327,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which pricing approach charges primarily according to actual resource usage?",
+    "options": {
+      "A": "Consumption-based",
+      "B": "Perpetual license",
+      "C": "Hardware ownership",
+      "D": "Capital-only"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Consumption-based pricing charges according to resource consumption."
+  },
+  {
+    "id": 328,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which Azure hierarchy level can contain multiple subscriptions?",
+    "options": {
+      "A": "Management group",
+      "B": "Resource group",
+      "C": "Subnet",
+      "D": "Availability zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups organize multiple Azure subscriptions."
+  },
+  {
+    "id": 329,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a subnet?",
+    "options": {
+      "A": "A logical subdivision of a virtual network",
+      "B": "A billing account",
+      "C": "A storage tier",
+      "D": "A region pair"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A subnet divides an Azure virtual network into logical network segments."
+  },
+  {
+    "id": 330,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "multiple",
+    "select": 3,
+    "question": "Which are valid cloud service models?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "LRS",
+      "E": "RBAC"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "IaaS, PaaS, and SaaS are the standard cloud service models."
+  },
+  {
+    "id": 331,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the Azure portal?",
+    "options": {
+      "A": "A web-based interface for managing Azure",
+      "B": "A physical datacenter",
+      "C": "A DNS protocol",
+      "D": "A storage tier"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Azure portal is a browser-based Azure management interface."
+  },
+  {
+    "id": 332,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service manages a group of identical VMs and supports automatic scaling?",
+    "options": {
+      "A": "Virtual Machine Scale Sets",
+      "B": "Azure DNS",
+      "C": "Azure Files",
+      "D": "Microsoft Purview"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VM Scale Sets manage groups of VMs and support scaling."
+  },
+  {
+    "id": 333,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which hierarchy is correct?",
+    "options": {
+      "A": "Management group > subscription > resource group > resource",
+      "B": "Resource group > subscription > management group > resource",
+      "C": "Subscription > resource > management group > resource group",
+      "D": "Region > resource group > subscription > resource"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure management hierarchy is management groups, subscriptions, resource groups, and resources."
+  },
+  {
+    "id": 334,
+    "chapter": "Azure storage",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which blob access tier is intended for frequently accessed data?",
+    "options": {
+      "A": "Hot",
+      "B": "Cool",
+      "C": "Archive",
+      "D": "Offline"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The Hot tier is optimized for frequently accessed data."
+  },
+  {
+    "id": 335,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 336,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A cloud administrator is advising an organization. What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 337,
+    "chapter": "Azure architecture",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which Azure hierarchy level can contain multiple subscriptions?",
+    "options": {
+      "A": "Management group",
+      "B": "Resource group",
+      "C": "Subnet",
+      "D": "Availability zone"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Management groups organize multiple Azure subscriptions."
+  },
+  {
+    "id": 338,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which tool estimates Azure costs before deployment?",
+    "options": {
+      "A": "Azure pricing calculator",
+      "B": "Azure Monitor",
+      "C": "Azure Policy",
+      "D": "Azure DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "The pricing calculator estimates costs for planned Azure services."
+  },
+  {
+    "id": 339,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 340,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which expenditure model is associated with purchasing physical servers up front?",
+    "options": {
+      "A": "OpEx",
+      "B": "CapEx",
+      "C": "Consumption",
+      "D": "Subscription"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Capital expenditure is spending on physical assets purchased up front."
+  },
+  {
+    "id": 341,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 342,
+    "chapter": "Monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which service is designed to monitor application performance and application telemetry?",
+    "options": {
+      "A": "Application Insights",
+      "B": "Azure DNS",
+      "C": "Azure Policy",
+      "D": "Azure Data Box"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Application Insights provides application performance monitoring and telemetry."
+  },
+  {
+    "id": 343,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service provides managed hosting for web applications?",
+    "options": {
+      "A": "Azure App Service",
+      "B": "Azure VM",
+      "C": "Physical server",
+      "D": "Local hypervisor"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure App Service is a managed application-hosting platform."
+  },
+  {
+    "id": 344,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a private endpoint used for?",
+    "options": {
+      "A": "Private access to a supported Azure service through a private IP",
+      "B": "Public internet access",
+      "C": "Cost calculation",
+      "D": "VM autoscaling"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A private endpoint maps a supported service to a private IP in a virtual network."
+  },
+  {
+    "id": 345,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 346,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is Azure Resource Manager primarily responsible for?",
+    "options": {
+      "A": "Managing and deploying Azure resources",
+      "B": "Hosting email",
+      "C": "Replacing Entra ID",
+      "D": "Providing all internet DNS"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Resource Manager is Azure's management layer for deploying and managing resources."
+  },
+  {
+    "id": 347,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An organization is selecting an Azure solution. What is the purpose of a resource lock?",
+    "options": {
+      "A": "Prevent accidental deletion or modification",
+      "B": "Increase VM CPU",
+      "C": "Create DNS records",
+      "D": "Reduce latency"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Resource locks help protect resources from accidental changes or deletion."
+  },
+  {
+    "id": 348,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. In this scenario, which service helps analyze and manage Azure spending?",
+    "options": {
+      "A": "Azure Cost Management",
+      "B": "Azure DNS",
+      "C": "Azure Functions",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Cost Management provides tools for analyzing and controlling cloud spending."
+  },
+  {
+    "id": 349,
+    "chapter": "Azure compute",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service provides virtualized desktops and applications to users?",
+    "options": {
+      "A": "Azure Virtual Desktop",
+      "B": "Azure Data Box",
+      "C": "Azure Monitor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Virtual Desktop delivers desktops and applications from Azure."
+  },
+  {
+    "id": 350,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "An administrator asks: which command-line tool is cross-platform for Azure management?",
+    "options": {
+      "A": "Azure CLI",
+      "B": "Azure Portal",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure CLI is a cross-platform command-line interface for Azure."
+  },
+  {
+    "id": 351,
+    "chapter": "Cloud concepts",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service model delivers a complete application to users?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "VPN"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "SaaS provides a complete software application as a service."
+  },
+  {
+    "id": 352,
+    "chapter": "Management & governance",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An administrator asks: which scripting environment provides Azure management cmdlets?",
+    "options": {
+      "A": "Azure PowerShell",
+      "B": "Azure DNS",
+      "C": "Azure Storage Explorer",
+      "D": "Application Insights"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure PowerShell provides Azure management cmdlets."
+  },
+  {
+    "id": 353,
+    "chapter": "Management & governance",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What are Azure tags commonly used for?",
+    "options": {
+      "A": "Organizing resources and supporting reporting",
+      "B": "Encrypting all data",
+      "C": "Creating VMs",
+      "D": "Replacing subscriptions"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Tags add metadata useful for organization, reporting, ownership, and cost analysis."
+  },
+  {
+    "id": 354,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "In this scenario, which service collects and analyzes telemetry from Azure resources and applications?",
+    "options": {
+      "A": "Azure Monitor",
+      "B": "Azure DNS",
+      "C": "Azure Data Box",
+      "D": "Azure Storage Explorer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Azure Monitor collects and analyzes monitoring data."
+  },
+  {
+    "id": 355,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service manages a group of identical VMs and supports automatic scaling?",
+    "options": {
+      "A": "Virtual Machine Scale Sets",
+      "B": "Azure DNS",
+      "C": "Azure Files",
+      "D": "Microsoft Purview"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VM Scale Sets manage groups of VMs and support scaling."
+  },
+  {
+    "id": 356,
+    "chapter": "Monitoring",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service provides information about incidents and planned maintenance that may affect Azure resources?",
+    "options": {
+      "A": "Azure Service Health",
+      "B": "Azure Monitor",
+      "C": "Azure Advisor",
+      "D": "Azure Policy"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Service Health provides personalized information about service incidents, maintenance, and advisories."
+  },
+  {
+    "id": 357,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which cloud benefit is focused on keeping a service operational despite component failures?",
+    "options": {
+      "A": "High availability",
+      "B": "Tagging",
+      "C": "Cost management",
+      "D": "Identity federation"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "High availability is designed to keep services available despite failures."
+  },
+  {
+    "id": 358,
+    "chapter": "Azure compute",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A company is evaluating Azure. Which service manages a group of identical VMs and supports automatic scaling?",
+    "options": {
+      "A": "Virtual Machine Scale Sets",
+      "B": "Azure DNS",
+      "C": "Azure Files",
+      "D": "Microsoft Purview"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "VM Scale Sets manage groups of VMs and support scaling."
+  },
+  {
+    "id": 359,
+    "chapter": "Azure networking",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is a subnet?",
+    "options": {
+      "A": "A logical subdivision of a virtual network",
+      "B": "A billing account",
+      "C": "A storage tier",
+      "D": "A region pair"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "A subnet divides an Azure virtual network into logical network segments."
+  },
+  {
+    "id": 360,
+    "chapter": "Cloud concepts",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "In this scenario, which service model provides virtualized infrastructure while allowing the customer to manage the guest operating system?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Serverless"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "IaaS provides infrastructure such as VMs while the customer manages the guest OS."
+  }
+]

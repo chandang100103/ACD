@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ITIL 4</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body class="dashboard-page">
+
+<div class="layout">
+
+    <!-- ================= Sidebar ================= -->
+
+    <aside class="sidebar">
+
+        <h2>Academy for Cloud Delivery</h2>
+
+        <a href="/dashboard">🏠 Dashboard</a>
+
+        <a href="/itil" class="active-link">📘 ITIL 4</a>
+
+        <a href="/az900">☁️ AZ-900</a>
+
+        <a href="/az104">⚙️ AZ-104</a>
+
+        <a href="/basis">🖥️ SAP BASIS</a>
+
+        <a href="/logout">🚪 Logout</a>
+
+    </aside>
+
+    <!-- ================= Main ================= -->
+
+    <main class="main-content">
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>📘 ITIL 4 Foundation</h1>
+
+                <p class="page-subtitle">
+
+                    Welcome {{ username }}
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ================= Search ================= -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="Search PDFs..."
+                onkeyup="searchPDFs()">
+
+        </div>
+
+        <!-- ================= Tabs ================= -->
+
+        <div class="tabs">
+
+            <button class="tab-btn active"
+                    onclick="showTab(event,'notes')">
+
+                📚 Notes
+
+            </button>
+
+            <button class="tab-btn"
+                    onclick="showTab(event,'qb')">
+
+                ❓ Question Banks
+
+            </button>
+
+            <button class="tab-btn"
+                    onclick="showTab(event,'mock')">
+
+                📝 Mock Tests
+
+            </button>
+
+        </div>
+
+        <!-- ===================================================== -->
+        <!-- NOTES -->
+        <!-- ===================================================== -->
+
+        <div id="notes" class="tab-content active">
+
+            <div class="pdf-grid">
+
+                {% for pdf in notes %}
+
+                <div class="course-card pdf-card">
+
+                    <div class="icon">
+
+                        📄
+
+                    </div>
+
+                    <h3>
+
+                        {{ pdf.name.replace(".pdf","").replace("_"," ") }}
+
+                    </h3>
+
+                    <p class="pdf-type">
+
+                        PDF • Study Material
+
+                    </p>
+
+                    <div class="pdf-buttons">
+
+                        <a
+                            class="btn"
+                            target="_blank"
+                            href="{{ url_for('static', filename='pdfs/itil/notes/' + pdf.file) }}">
+
+                            Open
+
+                        </a>
+
+                        <a
+                            class="btn download-btn"
+                            download
+                            href="{{ url_for('static', filename='pdfs/itil/notes/' + pdf.file) }}">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <!-- ===================================================== -->
+        <!-- QUESTION BANK -->
+        <!-- ===================================================== -->
+
+        <div id="qb" class="tab-content">
+
+            <div class="pdf-grid">
+
+                {% for pdf in question_banks %}
+
+                <div class="course-card pdf-card">
+
+                    <div class="icon">
+
+                        ❓
+
+                    </div>
+
+                    <h3>
+
+                        {{ pdf.name.replace(".pdf","").replace("_"," ") }}
+
+                    </h3>
+
+                    <p class="pdf-type">
+
+                        PDF • Question Bank
+
+                    </p>
+
+                    <div class="pdf-buttons">
+
+                        <a
+                            class="btn"
+                            target="_blank"
+                            href="{{ url_for('static', filename='pdfs/itil/question_banks/' + pdf.file) }}">
+
+                            Open
+
+                        </a>
+
+                        <a
+                            class="btn download-btn"
+                            download
+                            href="{{ url_for('static', filename='pdfs/itil/question_banks/' + pdf.file) }}">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <!-- ===================================================== -->
+        <!-- MOCK CENTER -->
+        <!-- ===================================================== -->
+
+        <!-- ===================================================== -->
+<!-- MOCK CENTER -->
+<!-- ===================================================== -->
+
+<div id="mock" class="tab-content">
+
+    <h2>📝 Mock Center</h2>
+
+    <br>
+
+    <div class="cards">
+
+        <div class="course-card">
+
+            <div class="icon">
+                🎯
+            </div>
+
+            <h2>
+                Quick Mock
+            </h2>
+
+            <p>
+                Easy + Medium Questions
+            </p>
+            <a href="{{ url_for('start_quick_mock') }}" class="btn">
+                Start Mock
+            </a>
+
+        </div>
+
+        <div class="course-card">
+
+            <div class="icon">
+                📘
+            </div>
+
+            <h2>
+                Foundation Mock
+            </h2>
+
+            <p>
+                Medium + Hard Questions
+            </p>
+
+            <a href="{{ url_for('start_foundation_mock') }}" class="btn">
+                Start Mock
+            </a>
+
+        </div>
+
+        <div class="course-card">
+
+            <div class="icon">
+                🏆
+            </div>
+
+            <h2>
+                Expert Mock
+            </h2>
+
+            <p>
+                Official Exam
+            </p>
+
+            <a href="{{ url_for('start_final_mock') }}" class="btn">
+                Start Mock
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+    </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
