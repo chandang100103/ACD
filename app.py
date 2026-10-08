@@ -873,64 +873,113 @@ def mock_exam(course):
 @app.route("/<course>/result")
 def mock_result(course):
 
+    # --------------------------------------------------
+    # If result already exists, use the saved result.
+    # This makes the result page refresh-safe.
+    # --------------------------------------------------
 
-    # Calculate result BEFORE clearing session
-    result = exam_result()
+    if "completed_result" in session:
 
-    questions = session.get("mock_questions", [])
-    answers = session.get("mock_answers", {})
+        result = session["completed_result"]
+        review = session.get("completed_review", [])
+        saved_course = session.get("completed_course", course)
 
-    review = []
+    else:
 
-    for q in questions:
+        # --------------------------------------------------
+        # First time opening the result page
+        # --------------------------------------------------
 
-        user_answer = answers.get(str(q["id"]), [])
+        result = exam_result()
 
-        review.append({
+        questions = session.get("mock_questions", [])
+        answers = session.get("mock_answers", {})
 
-            "question": q["question"],
+        review = []
 
-            "chapter": q["chapter"],
+        for q in questions:
 
-            "difficulty": q["difficulty"],
+            user_answer = answers.get(str(q["id"]), [])
 
-            "options": q["options"],
+            review.append({
 
-            "correct": q["correct"],
+                "question": q["question"],
 
-            "selected": user_answer,
+                "chapter": q["chapter"],
 
-            "explanation": q["explanation"],
+                "difficulty": q["difficulty"],
 
-            "is_correct": sorted(user_answer) == sorted(q["correct"])
+                "options": q["options"],
 
-        })
+                "correct": q["correct"],
 
-    # Clear exam session so user cannot return to completed exam
-    session.pop("mock_questions", None)
-    session.pop("mock_answers", None)
-    session.pop("current_question", None)
-    session.pop("review_questions", None)
+                "selected": user_answer,
 
-    course = session.get("course", "itil")
+                "explanation": q["explanation"],
+
+                "is_correct":
+                    sorted(user_answer) ==
+                    sorted(q["correct"])
+
+            })
+
+        # --------------------------------------------------
+        # Save completed result for refresh
+        # --------------------------------------------------
+
+        session["completed_result"] = result
+        session["completed_review"] = review
+        session["completed_course"] = course
+
+        saved_course = course
+
+        # --------------------------------------------------
+        # Clear active exam session
+        # --------------------------------------------------
+
+        session.pop("mock_questions", None)
+        session.pop("mock_answers", None)
+        session.pop("current_question", None)
+        session.pop("review_questions", None)
+
+        session.modified = True
+
+    # --------------------------------------------------
+    # Course names
+    # --------------------------------------------------
 
     course_names = {
-    "itil": "ITIL 4 Foundation",
-    "basis": "SAP BASIS",
-    "az900": "AZ-900",
-    "az104": "AZ-104"
+
+        "itil": "ITIL 4 Foundation",
+
+        "basis": "SAP BASIS",
+
+        "az900": "AZ-900",
+
+        "az104": "AZ-104"
+
     }
+
     return render_template(
 
         "result.html",
-        username="Welcome",
-        result=result,
-        review=review,
-        pass_percentage=PASS_PERCENTAGE,
-        course=course,
-        course_name=course_names.get(course, course.upper())
-)
 
+        username="Welcome",
+
+        result=result,
+
+        review=review,
+
+        pass_percentage=PASS_PERCENTAGE,
+
+        course=saved_course,
+
+        course_name=course_names.get(
+            saved_course,
+            saved_course.upper()
+        )
+
+    )
     
 @app.after_request
 def prevent_exam_caching(response):
