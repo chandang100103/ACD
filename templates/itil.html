@@ -70,11 +70,10 @@
         <!-- ================= Tabs ================= -->
 
         <div class="tabs">
+            <button class="tab-btn"
+                    onclick="showTab(event,'mock')">
 
-            <button class="tab-btn active"
-                    onclick="showTab(event,'notes')">
-
-                📚 Notes
+                📝 Mock Tests
 
             </button>
 
@@ -84,11 +83,10 @@
                 ❓ Question Banks
 
             </button>
+             <button class="tab-btn active"
+                    onclick="showTab(event,'notes')">
 
-            <button class="tab-btn"
-                    onclick="showTab(event,'mock')">
-
-                📝 Mock Tests
+                📚 Notes
 
             </button>
 
@@ -99,7 +97,7 @@
         <!-- ===================================================== -->
 
         <div id="notes" class="tab-content active">
-
+            <h2> 📚 Notes </h2>
             <div class="pdf-grid">
 
                 {% for pdf in notes %}
@@ -159,7 +157,7 @@
         <!-- ===================================================== -->
 
         <div id="qb" class="tab-content">
-
+            <h2> ❓ Question Banks </h2>
             <div class="pdf-grid">
 
                 {% for pdf in question_banks %}
