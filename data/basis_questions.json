@@ -1517,4 +1517,1051 @@
     "explanation": "",
     "select": 2
   }
+  {
+    "id": 95,
+    "question": "What should you do before updating your SAP system using SUM?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Download the latest version of SUM",
+      "B": "Read the corresponding SAP Note for your version of SUM",
+      "C": "Delete all transport requests from the import queue",
+      "D": "Disable all SAP background jobs permanently",
+      "E": "Remove the SAP Host Agent from the system"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 96,
+    "question": "After installing an SAP system (not an SAP S/4HANA) you should schedule standard background jobs.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 97,
+    "question": "You are installing an SAP S/4HANA 1809 system that should use an Enqueue Replication Server (ERS). How do you install the ERS?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "The installation of an ERS needs to be executed by a dedicated run of SAPinst",
+      "B": "The ERS is installed automatically together with the Primary Application Server",
+      "C": "The ERS is created manually in transaction SM12 after the installation",
+      "D": "The ERS is installed as part of the SAP HANA database lifecycle manager",
+      "E": "The ERS is configured only after the first client copy is completed"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "question": "SAP recommends that you use unique SAP system IDs (SID) throughout your SAP system landscape.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 99,
+    "question": "Immediately after a new installation, all ABAP programs are available as source code including their load.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 100,
+    "question": "The central services instance of an AS Java 7.40 and above contains a gateway process. Decide if true or false.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 101,
+    "question": "What are the steps needed to install additional languages?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Scheduling of language supplementation",
+      "B": "Scheduling of language import",
+      "C": "Classifying the language",
+      "D": "Creating a new transport domain",
+      "E": "Reinstalling the SAP kernel"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 102,
+    "question": "Which of the following options are benefits of SAProuter?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Increases network security",
+      "B": "Simplifies network configuration",
+      "C": "Required for remote support connections",
+      "D": "Replaces the SAP Web Dispatcher for HTTP load balancing",
+      "E": "Stores user master records for SAP systems"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 103,
+    "question": "When you use the parameter mode Typical for an installation procedure, this setting will determine some parameter values that can’t be changed during the following installation process.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 104,
+    "question": "On the installation dialog screens relating to the installation of an Additional Application Server for an SAP S/4HANA Server system, you are required to provide the profile directory of the SAP system.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 105,
+    "question": "Which of these SAP systems is not an AS ABAP-based SAP system?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "SAP ECC",
+      "B": "SAP S/4HANA",
+      "C": "SAP Solution Manager ABAP",
+      "D": "SAP BW",
+      "E": "SAP EP"
+    },
+    "correct": [
+      "E"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 106,
+    "question": "After installation of the PAS, no user can log on to the SAP system until a permanent license is installed.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 107,
+    "question": "You configure the Transport Management System (TMS) in a freshly installed AS ABAP 7.5. What will be done (by the system) during the initial setup of TMS?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "A password will be required",
+      "B": "The user TMSADM will be created",
+      "C": "The system description needs to be provided",
+      "D": "The SAP kernel will be updated automatically",
+      "E": "All transport requests will be imported into the system"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 108,
+    "question": "When updating an SAP S/4HANA server system using Software Update Manager (SUM), you will be asked for the passwords for which users?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "SYSTEM in SAP HANA tenant database",
+      "B": "DDIC in client 000",
+      "C": "SAP* in client 100",
+      "D": "TMSADM in client 000",
+      "E": "SAPJSF in the Java stack"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 109,
+    "question": "Which release of AS ABAP does the SAP Solution Manager ABAP 7.2 use?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "7.40",
+      "B": "7.31",
+      "C": "7.50",
+      "D": "7.52",
+      "E": "7.00"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 110,
+    "question": "You are using the strategy Standard for updating an AS ABAP-based SAP system. This will result in lower required free space in the database than when using the strategy Single System.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 111,
+    "question": "You are installing an SAP S/4HANA Server 2021 system. During this installation you can use any kernel released for this SAP system release.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 112,
+    "question": "You use the SAP Load Generator to generate loads in your SAP system which consists of application servers running on Linux and other Unix operating systems. To generate all selected loads for all application servers, you need to start the load generation more than once.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 113,
+    "question": "When installing an SAP system, you can start SAPinst to install Primary Application Server, ABAP Central Services Instance and one or several Additional Application Servers in one go.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 114,
+    "question": "Executing an update of an AS ABAP-based SAP system using the Software Update Manager (SUM) requires that you provide a so-called stack XML file at the beginning of the update process.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 115,
+    "question": "Which software components (among others) can be found in every AS ABAP-based SAP system?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "SAP_BASIS",
+      "B": "SAP_ABA",
+      "C": "SAP_UI",
+      "D": "ST-PI",
+      "E": "SAP_APPL"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 116,
+    "question": "The port for an ABAP dispatcher will be in the 32## number range.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 117,
+    "question": "Which process distributes the incoming requests to the available server processes in an AS Java- based SAP system?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Internet Communication Manager, ICM",
+      "B": "Enqueue Server",
+      "C": "Message Server",
+      "D": "SAP Gateway",
+      "E": "Java Dispatcher"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 118,
+    "question": "When you install an SAP S/4HANA Server system, how do you install the SAP HANA DB?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Use a database tool to install the SAP HANA database before starting SAPinst",
+      "B": "SAPinst automatically installs SAP HANA during the S/4HANA Server installation",
+      "C": "Install SAP HANA only after the SAP S/4HANA application server installation is complete",
+      "D": "Use transaction DBACOCKPIT to install the SAP HANA database",
+      "E": "Use the Transport Management System, TMS, to import the SAP HANA database software"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 119,
+    "question": "Identify the name of a database schema that will be created during the installation of an SAP S/4HANA Server 2021 system when using SAPinst?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "SAPHANADB",
+      "B": "SAPSR3",
+      "C": "SAPABAP1",
+      "D": "SYSTEMDB",
+      "E": "S4HANA_SCHEMA"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 120,
+    "question": "In which client is the initial setup of TMS done?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Client 000",
+      "B": "Client 001",
+      "C": "Client 066",
+      "D": "Client 100",
+      "E": "Client 800"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 121,
+    "question": "When updating an SAP system using Software Update Manager (SUM), you can decide between which main configurations of the tool?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Standard",
+      "B": "Advanced",
+      "C": "Minimal",
+      "D": "Expert",
+      "E": "Development"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 122,
+    "question": "When the database is running in a mode where it does not write any change logs, data can be restored to:",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "The last full backup",
+      "B": "The last committed transaction",
+      "C": "The most recent log backup",
+      "D": "Any point in time before the failure",
+      "E": "The last delta backup plus all log backups"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 123,
+    "question": "Several components of SAP systems can be patched using Software Update Manager (SUM). Which components of AS ABAP-based SAP systems can be updated using SUM?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Kernel",
+      "B": "SPAM/SAINT",
+      "C": "SAP_BASIS",
+      "D": "SAP HANA backup catalog",
+      "E": "User master records"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 124,
+    "question": "Identify characteristics of the SAP NetWeaver Administrator tool.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "It is accessed via a web browser interface",
+      "B": "It allows access to the Configuration Wizard",
+      "C": "It is used only through SAP GUI transaction codes",
+      "D": "It replaces the SAP Transport Management System",
+      "E": "It is used to install the SAP HANA database system"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 125,
+    "question": "You use transaction OSS1 in your freshly installed AS ABAP-based SAP system. Which name will be used automatically for the generated RFC connection?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "SAPOSS",
+      "B": "SAPNET",
+      "C": "OSS_RFC",
+      "D": "SAP_SUPPORT",
+      "E": "SAPROUTER"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 126,
+    "question": "When configuring the standard background jobs, you will use identical functions in the SAP system whether you configure the jobs on SAP S/4HANA or non-SAP S/4HANA system that is based on AS ABAP.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 127,
+    "question": "When defining a task within the Task Manager for Technical Configuration, you can select between several hundred predefined steps to include into your own task list.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 128,
+    "question": "When you use the SAP Consistency Check, which checks will be executed?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Accessibility of the message server",
+      "B": "Information about the enqueue service",
+      "C": "Version compatibility between SAP release and operating system",
+      "D": "Configuration of SAP Fiori launchpad catalogs",
+      "E": "Creation of SAP HANA tenant database backups"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 129,
+    "question": "For which kernel components will you potentially be asked to provide current archives during installation?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "SAPEXE.SAR",
+      "B": "SAPHOSTAGENT.SAR",
+      "C": "SAPEXEDB.SAR",
+      "D": "SAPCAR.EXE",
+      "E": "SAPINST.SAR"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 130,
+    "question": "You are installing an SAP Solution Manager Java system. What is the minimum number of Java Server Nodes that you can set during the installation?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "0"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 131,
+    "question": "When working with Software Update Manager (SUM) you can activate an Expert Mode that allows additional settings.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 132,
+    "question": "During the installation of an SAP Solution Manager ABAP system, you are required to set the user IDs for some user management engine (UME) users stored in the ABAP system. Identify the accounts, for which you need to provide user IDs.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Administrator User",
+      "B": "Guest User",
+      "C": "DDIC User",
+      "D": "SAPJSF User",
+      "E": "Transport Management User"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 133,
+    "question": "In which phase can you revise the parameters value during the SAP Solution Manager system installation?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Parameter Summary",
+      "B": "Define Parameters",
+      "C": "Execute Service",
+      "D": "Prerequisite Check",
+      "E": "Media Browser"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 134,
+    "question": "From which Web site can you securely download the full SAP HANA documentation as a .zip file?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "https://help.sap.com/docs/SAP_HANA_PLATFORM",
+      "B": "https://support.sap.com/swdc",
+      "C": "https://launchpad.support.sap.com",
+      "D": "https://www.sap.com/products/technology-platform/hana.html",
+      "E": "https://me.sap.com"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 135,
+    "question": "You are installing an AS ABAP-based SAP system Identify the SAP System IDs that are allowed, according to the corresponding naming conventions?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "NYC",
+      "B": "LA6",
+      "C": "6LA",
+      "D": "SAP",
+      "E": "ADD"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 136,
+    "question": "What software innovations did SAP deliver with SAP HANA?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Partitioning",
+      "B": "Column and delta store",
+      "C": "Row-only database storage",
+      "D": "File-based transport directory",
+      "E": "Client-dependent customizing tables"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 137,
+    "question": "Which inter-service communication properties binds the processes to entered address only, and to all local host interfaces?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Internal",
+      "B": "Global",
+      "C": "Public",
+      "D": "Localhost",
+      "E": "External"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 138,
+    "question": "Which SAP HANA lifecycle management tools can be used to install the SAP HANA database system?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "hdblcm",
+      "B": "hdbsql",
+      "C": "hdbuserstore",
+      "D": "HANA Cockpit",
+      "E": "SAPinst"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 139,
+    "question": "Which condition does the user used for installing an SAP system on Windows need to fulfill?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Needs to have local administrator rights",
+      "B": "Needs to be named SAPService<SID>",
+      "C": "Needs to be a domain guest user only",
+      "D": "Needs to have database administrator rights only",
+      "E": "Needs to be created in client 000 before installation"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 140,
+    "question": "Which file system paths can you find in an AS ABAP 7.5 (or higher) – based SAP system on Unix, right after a standard installation? (SID being replaced by the chosen SID of the system to be installed)",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "/usr/sap/trans",
+      "B": "/usr/sap/<SID>/SYS",
+      "C": "/hana/data/<SID>",
+      "D": "/oracle/client/<SID>",
+      "E": "/sapmnt/trans/<SID>"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 141,
+    "question": "For which system landscape types can you use the SAP HANA Hardware and Cloud Measurement tools to determine if your hardware meets the minimum performance criteria required to run SAP HANA in production use?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "A single-host setup",
+      "B": "A scale-out setup",
+      "C": "A client-only installation",
+      "D": "A standby-only host setup without database services",
+      "E": "An SAP Web Dispatcher-only setup"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 142,
+    "question": "SAP HANA tailored data center integration (TDI) is an open and flexible approach for the integration of SAP HANA in the data center. TDI can reduce hardware and operation costs by reusing existing hardware components and processes.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 143,
+    "question": "An ASCS is a prerequisite for an ERS.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 144,
+    "question": "The database migration option (DMO) is part of which tool?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Software Update Manager, SUM",
+      "B": "Software Provisioning Manager, SWPM",
+      "C": "SAP HANA Database Lifecycle Manager, HDBLCM",
+      "D": "Maintenance Planner",
+      "E": "SAPinst"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 145,
+    "question": "Which of the following Windows-specific preparations are performed when installing an SAP system on a Windows operating system?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Check Windows file system",
+      "B": "Prepare installation user",
+      "C": "Configure SAP HANA tenant database backups",
+      "D": "Create ABAP transport routes in TMS",
+      "E": "Schedule standard background jobs"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 146,
+    "question": "You installed an Enqueue Replication Server (ERS) for your SAP system. It is recommended that you configure a dynamic work process of type E (Enqueue) as a fallback safeguard against a failure of the ERS.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 147,
+    "question": "What is the minimum space requirement for the Data Volume? Note: There are 2 correct answers to this question.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "1.2 × RAM for TDI",
+      "B": "3 × RAM for Appliance",
+      "C": "1 × RAM for TDI",
+      "D": "2 × RAM for Appliance",
+      "E": "5 × RAM for TDI"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 148,
+    "question": "Which file records all the notifications of every installation step?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "sapinst_dev.log",
+      "B": "sapinst.log",
+      "C": "SAPCAR.log",
+      "D": "dev_disp",
+      "E": "trans.log"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 149,
+    "question": "Using the browser-based interface of SAPinst you can directly access important log files created during the installation process. Decide if true or false.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 150,
+    "question": "Which certified hardware components are listed on the SAP HANA hardware directory? Note: There are 2 correct answers to this question.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Enterprise storage systems",
+      "B": "Appliances",
+      "C": "SAP GUI front-end clients",
+      "D": "ABAP application servers",
+      "E": "SAP Web Dispatcher instances"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "",
+    "select": 2
+  },
+  {
+    "id": 151,
+    "question": "Before starting the installation of an SAP system, consider the following information source:",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Installation Guide",
+      "B": "SAP GUI Theme Designer",
+      "C": "Transport Import Queue",
+      "D": "User Master Record Report",
+      "E": "Background Job Log"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 152,
+    "question": "Which characteristics help you to identify the exact installation guide documentation that you should use during the installation process? Note there are 3 correct answers to this question.",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "multiple",
+    "options": {
+      "A": "Release of the SAP software to be installed",
+      "B": "Database software that will be used",
+      "C": "Operating system that will be used",
+      "D": "Number of end users expected in the production system",
+      "E": "Transport domain name configured in TMS"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "",
+    "select": 3
+  },
+  {
+    "id": 153,
+    "question": "Which components of an SAP HANA appliance do you need to consider for sizing?",
+    "chapter": "SAP BASIS",
+    "difficulty": "medium",
+    "type": "single",
+    "options": {
+      "A": "Memory",
+      "B": "SAP GUI patch level",
+      "C": "Transport directory size",
+      "D": "Number of ABAP clients",
+      "E": "SAP Web Dispatcher profile size"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": ""
+  }
 ]
