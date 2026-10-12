@@ -108,6 +108,7 @@
       "C"
     ],
     "explanation": ""
+    "select": 2
   },
   {
     "id": 8,
@@ -177,6 +178,7 @@
       "C"
     ],
     "explanation": ""
+    "select": 2
   },
   {
     "id": 12,
@@ -1091,6 +1093,7 @@
       "B"
     ],
     "explanation": ""
+    "select": 2
   },
   {
     "id": 59,
@@ -1481,7 +1484,9 @@
       "A": "True",
       "B": "False"
     },
-    "correct": [],
+    "correct": [
+      "B"
+    ],
     "explanation": "The source PDF does not provide a correct answer for this question."
   },
   {
@@ -1494,7 +1499,9 @@
       "A": "True",
       "B": "False"
     },
-    "correct": [],
+    "correct": [
+      "B"
+    ],
     "explanation": "The source PDF does not provide a correct answer for this question."
   },
   {
