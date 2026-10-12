@@ -340,7 +340,7 @@ def validate_answer(question):
             return False, "Please select an answer before continuing."
 
     elif question["type"] == "multiple":
-        required = int(question["select"])
+        required = int(question.get("select", len(question.get("correct", []))))
 
         if len(selected) != required:
             return False, f"Please select exactly {required} answers."
@@ -687,7 +687,7 @@ def mock_exam(course):
             # Multiple-answer question
             elif question["type"] == "multiple":
 
-                required = int(question["select"])
+                required = int(question.get("select", len(question.get("correct", []))))
 
                 if len(selected_from_form) != required:
                     error = f"Please select exactly {required} answers."
