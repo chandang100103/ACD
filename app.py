@@ -106,7 +106,16 @@ def load_questions(course):
 # EXAM HELPERS
 # ==========================================================
 def initialize_exam(course, mode="final"):
+    session.pop("completed_result", None)
+    session.pop("completed_review", None)
+    session.pop("completed_course", None)
 
+    # Clear the previous mock's questions and answers
+    session.pop("mock_questions", None)
+    session.pop("mock_answers", None)
+    session.pop("current_question", None)
+    session.pop("review_questions", None)
+    
     questions = load_questions(course)
 
     if mode == "quick":
