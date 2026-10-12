@@ -838,7 +838,7 @@ def mock_exam(course):
     # ------------------------------------------------------
     # RENDER PAGE
     # ------------------------------------------------------
-    course = session.get("course", "itil")
+    course = session.get("course", course)
 
     course_names = {
     "itil": "ITIL 4 Foundation",
