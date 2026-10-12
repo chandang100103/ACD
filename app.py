@@ -624,8 +624,8 @@ def mock_exam(course):
     if course not in ["itil", "basis", "az900", "az104"]:
         return redirect(url_for("dashboard"))
     
-    if "mock_questions" not in session:
-            return redirect(url_for("itil"))
+    if "mock_questions" not in session or session.get("course") != course:
+        return redirect(url_for(course))
     # ------------------------------------------------------
     # START EXAM
     # ------------------------------------------------------
